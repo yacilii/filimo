@@ -1,0 +1,19 @@
+
+.sayerlink>.menu_link{
+    visibility: hidden;
+    opacity: 0;
+    transition:visibility 0.5s ease-out,opacity 0.5s ease-out;
+}
+.sayerlink:hover>.menu_link{
+    visibility: visible;
+    opacity: 1;
+}
+.leftejtema>.menu_shabake{
+    visibility: hidden;
+    opacity: 0;
+    transition:visibility 0.5s ease-out,opacity 0.5s ease-out;
+}
+.leftejtema:hover>.menu_shabake{
+    visibility: visible;
+    opacity: 1;
+}

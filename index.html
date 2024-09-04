@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filimo</title>
+  <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./public/slider/slider.css">
+  <link rel="stylesheet" href="./public/css/slider2.css">
+  <link rel="stylesheet" href="./public/css/main.css">
+  <link rel="stylesheet" href="./public/fonts/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+</head>
+<body class="flex w-screen h-screen font-['film'] text-[12px] font-bold bg-[#151515] text-white overflow-x-hidden relative ">
+  <div class="upheadevery flex w-[100%] h-[52px] bg-[rgba(0,0,0,0.8)] text-white fixed top-0 z-50 md:flex">
+    <div class=" flex w-[100%] h-[52px] bg-[rgba(0,0,0,0.8)] justify-between px-[20px] lg:px-[80px] ">
+      <ul class="rhead flex w-[500px] h-[100%] items-center list-none ">
+          <li class="md:w-[115px] h-[25px] md:pl-[32px] md:border-l md:ml-[32px] md:border-[rgba(255,255,255,.3)] border-[rgba(0,0,0,0.8)]"><a class="" href="#"><img class=" h-[100%]" src="/public/images/logo.svg" alt=""></a></li>
+          <li class=" ml-[32px] hidden md:flex"><a class=" flex gap-[5px] justify-between h-[52px] items-center " href="#">
+            <span class="">
+              <svg class=" flex w-[24px] h-[24px] align-middle">
+                <g id="ui-icon-fire" viewBox="0 0 20 20">
+                  <path d="M14.9817 9.29572C14.7793 9.03171 14.5329 8.8029 14.3041 8.57409C13.7145 8.04606 13.0456 7.66764 12.4824 7.11321C11.486 6.13683 11.079 4.67766 11.3079 3.31885C11.3932 2.81244 10.953 2.3161 10.5056 2.56826C10.1542 2.76632 9.82751 2.99853 9.52546 3.24102C7.24615 5.07151 6.3485 8.30127 7.42216 11.0734C7.45736 11.1614 7.49256 11.2494 7.49256 11.3638C7.49256 11.5574 7.36055 11.7334 7.18455 11.8039C6.98214 11.8919 6.77092 11.8391 6.60372 11.6982C6.55091 11.6542 6.51571 11.6102 6.48051 11.5486C6.02925 10.9776 5.75014 10.2942 5.64237 9.58309C5.54699 8.9538 4.70017 8.51622 4.43263 9.09373C3.98868 10.052 3.77785 11.1298 3.84038 12.1735C3.89318 12.6135 3.94598 13.0535 4.09559 13.4935C4.2188 14.0216 4.45641 14.5496 4.72042 15.016C5.67087 16.5385 7.31655 17.6297 9.08544 17.8498C10.9687 18.0874 12.984 17.7442 14.4273 16.4417C16.0378 14.9808 16.601 12.6399 15.7738 10.6334L15.6594 10.4046C15.4746 9.99976 14.9817 9.29572 14.9817 9.29572ZM12.2008 14.84C11.9544 15.0512 11.5496 15.28 11.2327 15.368C10.5182 15.6232 9.80358 15.4344 9.24326 15.0899C8.97628 14.9257 9.0751 14.5425 9.34969 14.3914C9.99764 14.0349 10.3962 13.4412 10.5375 12.8423C10.6871 12.1383 10.4055 11.5574 10.2911 10.8798C10.2373 10.5481 10.2155 10.2415 10.2384 9.94018C10.2647 9.59462 10.6858 9.56464 10.8834 9.84938C10.9196 9.90155 10.9568 9.95182 10.9951 9.99976C11.6728 10.8798 12.7376 11.267 12.9664 12.4639C13.0016 12.5871 13.0192 12.7103 13.0192 12.8423C13.0456 13.5639 12.7288 14.356 12.2008 14.84Z" fill="url(#paint0_radial_923_68543)"></path>
+                  <defs>
+                  <radialGradient id="paint0_radial_923_68543" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(13 21.5005) rotate(-115.942) scale(20.573 28.2969)">
+                  <stop stop-color="#F58540"></stop>
+                  <stop offset="0.541667" stop-color="#F99F3E"></stop>
+                  <stop offset="1" stop-color="#FEC23B"></stop>
+                  </radialGradient>
+                  </defs>
+                  </g>
+              </svg>
+              <svg class="hidden" viewBox="0 0 24 24"><use xlink:href="#ui-icon-fire"></use></svg>
+            </span>
+            فیلیموتور</a></li>
+          <li  class=" ml-[32px] hidden md:flex "><a class=" flex gap-[5px] justify-between h-[52px] items-center fill-white hover:fill-[#fbae3d] " href="https://www.filimo.school/?utm_source=filimo-web&amp;utm_medium=navigation&amp;utm_campaign=filimo-user&amp;utm_content=home">
+            <span >
+              <svg class="hidden " >
+                <g id="icon-school">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M20.7471 15.0152C20.71 14.9917 20.7094 14.9619 20.7088 14.9335L20.7085 14.9229C20.7004 14.7153 20.6691 14.5106 20.627 14.3074C20.437 13.3978 20.0721 12.5655 19.4694 11.8383C19.2029 11.5166 18.8959 11.2356 18.5477 11.0005C18.1155 10.7088 17.6819 10.4181 17.241 10.1391C16.1661 9.45871 15.0632 8.8235 13.9467 8.20948C13.0418 7.7116 12.1284 7.22911 11.1945 6.78379C10.835 6.61186 10.4735 6.44325 10.0987 6.30386C9.96258 6.25312 9.82426 6.20577 9.68356 6.16861C9.50319 6.12068 9.3201 6.12507 9.13939 6.17788C9.03793 6.20776 8.9477 6.25709 8.86786 6.3248C8.85347 6.33703 8.83859 6.34854 8.81968 6.36317L8.79142 6.38515C8.79316 6.37422 8.79423 6.36512 8.79516 6.35729L8.79516 6.35728C8.79681 6.3433 8.79798 6.33335 8.80163 6.32422C9.20723 5.31744 9.80902 4.44848 10.6978 3.78281C11.1491 3.44493 11.6515 3.20166 12.1935 3.03363C12.3513 2.98446 12.506 2.99497 12.6631 3.02833C12.8721 3.07303 13.0707 3.14678 13.2679 3.22575C13.7621 3.42374 14.2421 3.65253 14.7167 3.89141C16.1828 4.62934 17.6093 5.43382 18.9855 6.32133C19.3162 6.53464 19.6408 6.75622 19.9523 6.99602C20.0935 7.10453 20.2259 7.22216 20.351 7.34781C20.4464 7.44308 20.5105 7.5554 20.5488 7.6823C20.6306 7.95197 20.673 8.22894 20.7038 8.50764C20.8191 9.551 20.851 10.5978 20.8579 11.6462C20.8626 12.3896 20.857 13.1328 20.8234 13.8757C20.8118 14.1296 20.7946 14.3834 20.7773 14.6371L20.7773 14.6376C20.7698 14.7484 20.7622 14.8591 20.7552 14.9699C20.7548 14.9773 20.7533 14.9847 20.7512 14.9944L20.7512 14.9944C20.75 15.0003 20.7485 15.007 20.7471 15.0152ZM14.1533 20.3588C13.7899 20.5327 13.4234 20.6999 13.045 20.8418C13.0991 20.5394 13.2081 19.6916 12.7595 18.7589C12.293 17.7893 11.5108 17.3239 11.238 17.1774C11.238 17.1774 14.0733 15.7034 15.1411 15.0891C16.072 14.5532 16.9945 14.0036 17.8864 13.4073C18.1238 13.2486 18.3568 13.0831 18.5856 12.9129C18.7181 12.8145 18.8451 12.7075 18.9628 12.5927C19.1201 12.4394 19.2176 12.2516 19.2427 12.0339C19.2484 11.9831 19.2429 11.9308 19.2375 11.8791L19.236 11.8641C19.2333 11.8378 19.2274 11.8119 19.2198 11.7781L19.2198 11.778L19.2197 11.7776C19.2158 11.7604 19.2114 11.7411 19.2068 11.7187C19.2195 11.7306 19.2292 11.7395 19.237 11.7465L19.237 11.7465L19.237 11.7465L19.237 11.7465L19.2371 11.7466C19.2493 11.7577 19.2566 11.7643 19.2626 11.7717C19.8065 12.4279 20.212 13.1545 20.4432 13.9694C20.5586 14.3746 20.6162 14.7883 20.621 15.2084C20.6255 15.5716 20.5762 15.9295 20.4985 16.2841C20.4737 16.397 20.423 16.5003 20.3438 16.5865C20.2578 16.6803 20.1697 16.7735 20.0738 16.8573C19.8438 17.0586 19.592 17.2339 19.3391 17.4066C18.6205 17.897 17.8759 18.3475 17.1209 18.7824C16.1505 19.3416 15.1661 19.8751 14.1533 20.3588ZM8.07684 20.6392L9.61375 18.8289C10.8451 19.5824 10.6784 20.7516 10.645 20.9856L10.643 21H8.25158C8.05981 21 7.95469 20.7829 8.07684 20.6392ZM8.38959 15.5583C8.39937 15.7507 8.15125 15.8425 8.02494 15.6938L6.36162 13.7348C6.27829 13.637 6.12363 13.6379 6.04209 13.7371L4.40541 15.7243C4.28446 15.8713 4.04102 15.7905 4.03829 15.603C4.02161 14.4008 3.98611 11.5985 4.00578 10.6796C4.0171 10.1601 4.04221 9.64066 4.08256 9.12216C4.10971 8.77004 4.13899 8.41759 4.20292 8.06952C4.22743 7.93593 4.25935 7.80324 4.29493 7.67204C4.32591 7.5574 4.41639 7.38929 4.50066 7.3037C4.65268 7.14833 4.81994 7.00985 4.99435 6.87981C5.42888 6.55551 5.88317 6.25917 6.34468 5.97286C7.7077 5.12691 9.10825 4.34453 10.5554 3.64194C10.6434 3.59952 10.7321 3.55848 10.8208 3.51742C10.8527 3.50264 10.8847 3.48786 10.9166 3.473C10.9205 3.4713 10.9249 3.47083 10.9313 3.47013C10.9358 3.46963 10.9414 3.46902 10.9486 3.46779C10.9362 3.50878 10.9088 3.52466 10.883 3.53958C10.8765 3.54336 10.87 3.54708 10.864 3.55114C10.0759 4.0804 9.45886 4.75881 9.00457 5.57687C8.75245 6.03063 8.58161 6.51279 8.49777 7.02235C8.46662 7.21248 8.449 7.40493 8.43461 7.59631C8.37912 8.33482 8.3266 9.07366 8.30353 9.81366C8.26744 10.9882 8.25459 12.1625 8.28446 13.3374C8.29136 13.6155 8.35171 14.8154 8.38959 15.5583Z"></path>
+                </g>
+              </svg>
+              <svg class=" flex w-[24px] h-[24px] align-middle " viewBox="0 0 24 24"><use xlink:href="#icon-school"></use></svg>
+            </span>
+            فیلیمومدرسه</a></li>
+          <li class="ml-[32px] hidden md:flex"><a  class="searchbtn flex gap-[5px] justify-between h-[52px] items-center fill-white hover:fill-[#fbae3d]" href="#">
+            <span>
+              <svg class="hidden">
+                <g id="ui-icon-search" viewBox="0 0 24 24"><path d="M19.16 4.84a8 8 0 0 0-12 10.56l-4.4 4.39a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L8.6 16.82a8 8 0 0 0 10.56-12Zm-1.42 9.9a6 6 0 1 1 0-8.48A6 6 0 0 1 17.74 14.74Z"></path></g>
+              </svg>
+              <svg class=" flex w-[18px] h-[18px] align-middle" viewBox="0 0 24 24"><use xlink:href="#ui-icon-search"></use></svg>
+            </span>
+            جستجو</a>
+          </li>
+      </ul>
+
+      <div class="lhead flex w-fit text-center h-[100%] items-center">
+        <span class="searchbooo w-[24px] h-[24px] fill-white ml-[20px] cursor-pointer md:hidden">
+          <svg class="hidden">
+            <g id="ui-icon-search" viewBox="0 0 24 24"><path d="M19.16 4.84a8 8 0 0 0-12 10.56l-4.4 4.39a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L8.6 16.82a8 8 0 0 0 10.56-12Zm-1.42 9.9a6 6 0 1 1 0-8.48A6 6 0 0 1 17.74 14.74Z"></path></g>
+          </svg>
+          <svg viewBox="0 0 24 24" class="w-[24px] h-[24px] fill-white"><use xlink:href="#ui-icon-search"></use></svg>
+        </span>
+        <a href="https://www.filimo.com/payment" id="enter" class="buyeshterak  ml-[16px] h-[38px] px-[15px] py-[10px] w-[117px] justify-between ">
+          <span class="view">
+            <svg class="hidden">
+              <g id="ui-icon-subscription" viewBox="0 0 24 24"><path d="M19 4H5A3 3 0 0 0 2 7V17a3 3 0 0 0 3 3H19a3 3 0 0 0 3-3V7A3 3 0 0 0 19 4Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7A1 1 0 0 1 5 6H19a1 1 0 0 1 1 1Z"></path><path d="M12.4 11 9 8.74A1.25 1.25 0 0 0 7 9.79v4.42A1.26 1.26 0 0 0 9 15.27l3.44-2.21A1.26 1.26 0 0 0 12.4 11Z"></path><circle cx="16" cy="9" r="1"></circle><circle cx="16" cy="15" r="1"></circle><circle cx="16" cy="12" r="1"></circle></g>
+            </svg>
+            <svg class=" fill-white flex w-[20px] h-[20px] align-middle" viewBox="0 0 24 24" data-gtm-vis-has-fired2323515_2471="1"><use xlink:href="#ui-icon-subscription" data-gtm-vis-has-fired2323515_2471="1"></use></svg>
+        </span>
+          <p class="">خرید اشتراک</p>
+      </a>
+        <a href="#" class="signin "><p>ورود</p></a>
+      </div>
+    </div>
+</div>
+
+<div class="searchfuly  w-[100%] h-[100vh] z-15 fixed bottom-0 top-0 right-0 left-0 overflow-y-scroll  items-center hidden">
+   <div class="m-w-[100%] lg:w-[830px] h-[100vh] pt-[100px] px-[30px] mx-auto flex flex-col items-start">
+    <div class="whitesearch mb-[50px] w-[100%] flex gap-[15px] items-center ">
+      <form class="fullwhity  bg-white w-[100%] h-[40px] py-[10px] px-[15px] sm:px-[37px] rounded-[5px] font-light text-black text-sm">
+        <input type="text" name="text " placeholder="جستجو فیلم، بازیگر، کارگردان و..." class="w-[100%] placeholder-gray-500 ">
+      </form>
+      <div class="closesrch text-[#fdc13c] font-thin text-xs cursor-pointer">بستن</div>
+    </div>
+    <div class="whitsrchdwn text-start "> 
+      <div class="mb-[5px] font-thin">تاریخچه جستجو</div>
+      <div class="text-sm font-thin">در این لیست، فیلم‌ و سریال‌ها، بازیگر و کارگردان‌هایی که جستجو می‌کنید ذخیره می‌شوند.</div>
+    </div>
+   </div>
+</div>
+<div class="usefullpage w-[100%] h-[100vh] z-15 fixed bottom-0 top-0 right-0 left-0 overflow-y-scroll  items-center hidden md:hidden">
+   <div class="w-[100%] h-[100%] px-[10px] py-[15px] flex flex-col ">
+    <div class="w-[100%] flex justify-end ">
+      <div class="closeitmenu cursor-pointer w-[32px] h-[32px] bg-[#3c3c3c] rounded-[50%] flex justify-center items-center">
+        <svg class="hidden"><g id="ui-icon-close" viewBox="0 0 24 24"><path d="M13.41 12l6.3-6.29a1 1 0 1 0-1.42-1.42L12 10.59 5.71 4.29A1 1 0 0 0 4.29 5.71L10.59 12l-6.3 6.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L12 13.41l6.29 6.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42Z"></path></g></svg>
+        <svg viewBox="0 0 24 24" class="w-[24px] h-[24px] fill-[#959595]"><use xlink:href="#ui-icon-close"></use></svg>
+      </div>
+     </div>
+     <div class="w-[100%] flex flex-col items-center justify-center h-[100%]">
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="#" class="font-light ">تماس و پشتیبانی</a></div>
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="#" class="font-light ">فروشگاه</a></div>
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="#" class="font-light ">قوانین</a></div>
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="#" class="font-light ">به ما بپیوندید</a></div>
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="#" class="font-light ">تبلیغات در فیلیمو</a></div>
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="#" class="font-light ">لوگو</a></div>
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="#" class="font-light ">دانلود فیلم و سریال</a></div>
+     </div>
+   </div>
+</div>
+<div class="socialmedia w-[100%] h-[100vh] z-15 fixed bottom-0 top-0 right-0 left-0 overflow-y-scroll  items-center hidden md:hidden">
+  <div class="w-[100%] h-[100%] px-[10px] py-[15px] flex flex-col ">
+    <div class="w-[100%] flex justify-end ">
+      <div class="closeitsocial cursor-pointer w-[32px] h-[32px] bg-[#3c3c3c] rounded-[50%] flex justify-center items-center">
+        <svg class="hidden"><g id="ui-icon-close" viewBox="0 0 24 24"><path d="M13.41 12l6.3-6.29a1 1 0 1 0-1.42-1.42L12 10.59 5.71 4.29A1 1 0 0 0 4.29 5.71L10.59 12l-6.3 6.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L12 13.41l6.29 6.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42Z"></path></g></svg>
+        <svg viewBox="0 0 24 24" class="w-[24px] h-[24px] fill-[#959595]"><use xlink:href="#ui-icon-close"></use></svg>
+      </div>
+     </div>
+     <div class="w-[100%] flex flex-col items-center justify-center h-[100%]">
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="https://www.aparat.com/filimo" class="aparins">
+        <span class="w-[24px] h-[24px] ">
+          <svg class="hidden"><g id="ui-icon-redvod" viewBox="0 0 24 24"><path d="M10.56 2.12 8.63 1.61a3.25 3.25 0 0 0-4 2.31L4.17 5.74A10 10 0 0 1 10.56 2.12Z"></path><path d="M2.08 13.59l-.47 1.78a3.25 3.25 0 0 0 2.31 4l1.85.49A10 10 0 0 1 2.08 13.59Z"></path><path d="M20.08 4.65 18 4.1a9.94 9.94 0 0 1 3.81 6.67l.57-2.14A3.25 3.25 0 0 0 20.08 4.65Z"></path><path d="M13.39 21.86l2 .53a3.25 3.25 0 0 0 4-2.31l.56-2.1A10 10 0 0 1 13.39 21.86Z"></path><path d="M12 2.9A9.1 9.1 0 1 0 21.1 12 9.09 9.09 0 0 0 12 2.9ZM6.84 7.44a2.6 2.6 0 1 1 2.07 3A2.6 2.6 0 0 1 6.84 7.44Zm3.79 7.86a2.6 2.6 0 1 1-2.06-3A2.6 2.6 0 0 1 10.63 15.3Zm.19-3.45a1.16 1.16 0 1 1 .91 1.35A1.15 1.15 0 0 1 10.82 11.85Zm6.34 4.71a2.6 2.6 0 1 1-2.07-3A2.6 2.6 0 0 1 17.16 16.56Zm1.32-6.88a2.6 2.6 0 1 1-2.06-3A2.6 2.6 0 0 1 18.48 9.68Z"></path></g></svg>
+          <svg viewBox="0 0 24 24" class="w-[24px] h-[24px]"><use xlink:href="#ui-icon-redvod"></use></svg>
+        </span>
+        <span>آپارات</span>
+      </a></div>
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="https://t.me/filimo" class="aparins">
+        <span class="w-[24px] h-[24px]">
+          <svg class="hidden"><g id="ui-icon-telegram" viewBox="0 0 24 24"><path d="M2.48 11 21.1 3.78C22 3.47 22.72 4 22.44 5.3h0L19.27 20.24c-.23 1.06-.86 1.32-1.74.82L12.7 17.5l-2.33 2.24a1.23 1.23 0 0 1-1 .48l.35-4.92 9-8.08c.39-.34-.09-.54-.6-.2L7 14 2.26 12.5c-1-.33-1.06-1 .22-1.53Z"></path></g></svg>
+          <svg viewBox="0 0 24 24" class="w-[24px] h-[24px]"><use xlink:href="#ui-icon-telegram"></use></svg>
+        </span>
+        <span>تلگرام</span>
+      </a></div>
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="http://twitter.com/filimocom" class="aparins">
+        <span class="w-[24px] h-[24px]">
+          <svg class="hidden"><g id="ui-icon-twitter" viewBox="0 0 24 24"><path d="M22.63 5.33a8.51 8.51 0 0 1-2.47.7 4.4 4.4 0 0 0 1.9-2.45 8.53 8.53 0 0 1-2.74 1.08 4.21 4.21 0 0 0-6.07-.2 4.45 4.45 0 0 0-1.36 3.21 4.88 4.88 0 0 0 .11 1A12.1 12.1 0 0 1 3.13 4.09 4.49 4.49 0 0 0 4.45 10 4.21 4.21 0 0 1 2.5 9.42v.05A4.4 4.4 0 0 0 6 13.8 4.24 4.24 0 0 1 4 13.87a4.33 4.33 0 0 0 4 3.07 8.52 8.52 0 0 1-5.33 1.88 8.91 8.91 0 0 1-1-.07 12 12 0 0 0 6.61 2c7.91 0 12.22-6.7 12.23-12.52l.4-.92A8.81 8.81 0 0 0 22.63 5.33Z"></path></g></svg>
+          <svg viewBox="0 0 24 24"><use xlink:href="#ui-icon-twitter"></use></svg>
+        </span>
+        <span>توئیتر</span>
+      </a></div>
+      <div class="p-[8px] transition-all duration-300 ease-out hover:bg-[#3a3a3a] text-[#959595] hover:text-white cursor-pointer"><a href="http://instagram.com/filimocom" class="aparins">
+        <span class="w-[24px] h-[24px]">
+          <svg class="hidden"><g id="ui-icon-instagram" viewBox="0 0 24 24"><path d="M22.44 7.68A7.69 7.69 0 0 0 22 5.13a5.32 5.32 0 0 0-3.08-3.08 7.59 7.59 0 0 0-2.54-.49C15.22 1.51 14.86 1.5 12 1.5l0 0c-2.84 0-3.2 0-4.31.06a7.87 7.87 0 0 0-2.54.51A5.32 5.32 0 0 0 2.05 5.17a7.69 7.69 0 0 0-.49 2.55C1.51 8.84 1.5 9.19 1.5 12s0 3.2.06 4.32a8 8 0 0 0 .53 2.51A5.32 5.32 0 0 0 5.17 22a7.84 7.84 0 0 0 2.54.49c1.11 0 1.47.06 4.31.06s3.2 0 4.31-.06A7.84 7.84 0 0 0 18.87 22 5.32 5.32 0 0 0 22 18.87a7.69 7.69 0 0 0 .49-2.55c0-1.12.06-1.48.06-4.32S22.5 8.8 22.44 7.68ZM20.5 16.24a5.9 5.9 0 0 1-.36 2 3.49 3.49 0 0 1-2 2 5.38 5.38 0 0 1-1.94.36c-1.1.06-1.43.07-4.23.07s-3.13 0-4.23-.07a5.38 5.38 0 0 1-1.94-.36 3.49 3.49 0 0 1-2-2 5.6 5.6 0 0 1-.36-1.94c-.08-1.11-.08-1.44-.08-4.24s0-3.13.06-4.24a5.63 5.63 0 0 1 .38-1.94 3.48 3.48 0 0 1 2-2 5.85 5.85 0 0 1 1.94-.36c1.1-.08 1.44-.08 4.23-.08s3.13 0 4.23.06a5.85 5.85 0 0 1 1.94.36 3.54 3.54 0 0 1 2 2 5.86 5.86 0 0 1 .36 1.95c.05 1.1.06 1.44.06 4.23S20.56 15.14 20.5 16.24Z"></path><path d="M12 6.64A5.36 5.36 0 1 0 17.34 12 5.35 5.35 0 0 0 12 6.64Zm0 8.83A3.48 3.48 0 1 1 15.46 12 3.47 3.47 0 0 1 12 15.47Z"></path><path d="M17.46 4.86a1.26 1.26 0 1 0 1.26 1.26A1.25 1.25 0 0 0 17.46 4.86Z"></path></g></svg>
+          <svg viewBox="0 0 24 24"><use xlink:href="#ui-icon-instagram"></use></svg>
+        </span>
+        <span>اینستاگرام</span>
+      </a></div>
+     </div>
+   </div>
+</div>
+
+   <div class="main w-screen h-screen  md:block">
+       <div class="topp w-[100%]   flex-wrap gap-0   ">
+
+
+      
+                           <!--slider-->
+                           <div class="slider w-[100%] h-[600px] sm:h-[720px] md:h-[620px] flex  " id="backtotop">
+                            <div class="swiper mySwiper w-[100%] flex ">
+                              <div class="swiper-wrapper animate-opacity  ">
+                                <div class="swiper-slide bg-[url('/images/img13.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed  " >
+                                  <div class="w-[100%] h-[100%] bg-radial-gradient"></div>
+                                </div>
+                                <div class="swiper-slide bg-[url('/images/img12.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed" ><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                                <div class="swiper-slide bg-[url('/images/img2.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed"><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                                <div class="swiper-slide bg-[url('/images/img3.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed"><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                                <div class="swiper-slide bg-[url('/images/img5.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed"><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                                <div class="swiper-slide bg-[url('/images/img6.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed"><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                                <div class="swiper-slide bg-[url('/images/img7.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed"><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                                <div class="swiper-slide bg-[url('/images/img8.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed"><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                                <div class="swiper-slide bg-[url('/images/img9.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed"><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                                <div class="swiper-slide bg-[url('/images/img4.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed"><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                                <div class="swiper-slide bg-[url('/images/img1.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed"><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                                <div class="swiper-slide bg-[url('/images/img14.webp')] w-[100%] bg-no-repeat bg-center bg-cover bg-fixed"><div class="w-[100%] h-[100%] bg-radial-gradient"></div></div>
+                              </div>
+                              <div class="watch absolute text-white animate-none z-50 w-[100%] h-fit px-[20px] xl:px-[80px] grid justify-evenly  bottom-[64px]">
+                                <div class="firstwt w-[100%] "><p class="font-bold text-base text-center  text-[#eb9b3a] mb-[25px]">با فیلیمو بی‌وقفه فیلم ببین</p></div>
+                                <div class="secondwt"><p class="text-center text-[25px] md:text-[40px] leading-5 pb-[8px] mb-[32px] ">کنترل همیشه دست توست!</p></div>
+                                <div class="w-[100%] thirdwt flex flex-col justify-evenly items-center lg:gap-[35px] xl:gap-[70px] mb-[24px] lg:mb-[64px] text-[#c1c1c0] lg:flex-row lg:justify-center lg:items-center">
+                                  <div class="tik flex items-center mb-[12px] lg:mb-[0px]">
+                                    <span class="tiktik">
+                                      <svg class=" hidden">
+                                        <g id="ui-icon-check" viewBox="0 0 24 24"><path d="M9.77 18.73a1 1 0 0 1-.71-.29L4.3 13.71a1 1 0 0 1 0-1.41 1 1 0 0 1 1.42 0l4 3.95 8.54-10.6A1 1 0 1 1 19.78 6.9L10.54 18.36a1 1 0 0 1-.72.37Z"></path></g>
+                                      </svg>
+                                      <svg class=" fill-[#1cb561] w-[14px] h-[14px] " viewBox="0 0 24 24"><use xlink:href="#ui-icon-check"></use></svg>
+                                    </span>
+                                    <p class="mt-[2px] text-sm">95 هزار اپیزود فیلم و سریال برای تماشا داری</p>
+                                  </div>
+                                  <div class="tik flex items-center mb-[12px] lg:mb-[0px]">
+                                    <span class="tiktik">
+                                      <svg class=" hidden">
+                                        <g id="ui-icon-check" viewBox="0 0 24 24"><path d="M9.77 18.73a1 1 0 0 1-.71-.29L4.3 13.71a1 1 0 0 1 0-1.41 1 1 0 0 1 1.42 0l4 3.95 8.54-10.6A1 1 0 1 1 19.78 6.9L10.54 18.36a1 1 0 0 1-.72.37Z"></path></g>
+                                      </svg>
+                                      <svg class=" fill-[#1cb561] w-[14px] h-[14px] " viewBox="0 0 24 24"><use xlink:href="#ui-icon-check"></use></svg>
+                                    </span>
+                                    <p class="mt-[2px] text-sm">می‌تونی دانلود کنی بعد بدون اینترنت تماشا کنی</p></div>
+                                  <div class="tik flex items-center mb-[12px] lg:mb-[0px]">
+                                    <span class="tiktik">
+                                      <svg class=" hidden">
+                                        <g id="ui-icon-check" viewBox="0 0 24 24"><path d="M9.77 18.73a1 1 0 0 1-.71-.29L4.3 13.71a1 1 0 0 1 0-1.41 1 1 0 0 1 1.42 0l4 3.95 8.54-10.6A1 1 0 1 1 19.78 6.9L10.54 18.36a1 1 0 0 1-.72.37Z"></path></g>
+                                      </svg>
+                                      <svg class=" fill-[#1cb561] w-[14px] h-[14px] " viewBox="0 0 24 24"><use xlink:href="#ui-icon-check"></use></svg>
+                                    </span>
+                                    <p class="mt-[2px] text-sm">می‌تونی یک عضو، مخصوص تماشای کودک بسازی</p></div>
+                                </div>
+                                <a href="https://www.filimo.com/payment" class="buyeshterak w-max mx-auto py-[17px] px-[58px] flex justify-center"> 
+                                  <span class="view">
+                                    <svg class="hidden">
+                                      <g id="ui-icon-subscription" viewBox="0 0 24 24"><path d="M19 4H5A3 3 0 0 0 2 7V17a3 3 0 0 0 3 3H19a3 3 0 0 0 3-3V7A3 3 0 0 0 19 4Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7A1 1 0 0 1 5 6H19a1 1 0 0 1 1 1Z"></path><path d="M12.4 11 9 8.74A1.25 1.25 0 0 0 7 9.79v4.42A1.26 1.26 0 0 0 9 15.27l3.44-2.21A1.26 1.26 0 0 0 12.4 11Z"></path><circle cx="16" cy="9" r="1"></circle><circle cx="16" cy="15" r="1"></circle><circle cx="16" cy="12" r="1"></circle></g>
+                                    </svg>
+                                    <svg class=" fill-white flex w-[20px] h-[20px] align-middle" viewBox="0 0 24 24" data-gtm-vis-has-fired2323515_2471="1"><use xlink:href="#ui-icon-subscription" data-gtm-vis-has-fired2323515_2471="1"></use></svg>
+                                </span>
+                                  <p class="text-center text-base ">خرید اشتراک و تماشا</p>
+                                </a>
+                                <div class="fivewt mt-[8px] flex mx-auto gap-[5px] ">
+                                  <span>
+                                    <svg class="hidden">
+                                      <g id="ui-icon-giftcard" viewBox="0 0 24 24"><path d="M18.73 5.5h-.91a3 3 0 0 0-5.34-2.61l0 0-.46.8-.46-.8 0 0A3 3 0 0 0 6.18 5.5H4.73a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V8.5A3 3 0 0 0 18.73 5.5ZM16 4.5a1 1 0 1 1-1-1A1 1 0 0 1 16 4.5Zm-8 0a1 1 0 1 1 1 1A1 1 0 0 1 8 4.5Zm-3.27 3H9.85L8.37 10.1a1 1 0 0 0 .37 1.36 1 1 0 0 0 1.37-.37L12 7.76l1.89 3.33a1 1 0 0 0 1.37.37 1 1 0 0 0 .37-1.36L14.15 7.5h4.58a1 1 0 0 1 1 1V14h-16V8.5A1 1 0 0 1 4.73 7.5Zm14 12h-14a1 1 0 0 1-1-1V17h16v1.5A1 1 0 0 1 18.73 19.5Z"></path></g>
+                                    </svg>
+                                    <svg class="fill-[#959ba2] w-[18px] h-[18px]" viewBox="0 0 24 24"><use xlink:href="#ui-icon-giftcard"></use></svg>
+                                  </span>
+                                  <p class="text-center text-[#959ba2]">تخفیف ویژه برای کاربران جدید</p>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+       <!--THE MOST POPULAR-->             
+       <div class="popural px-[20px] md:px-[30px]  lg:px-[80px] mx-auto w-[100%] relative  pb-[25px]" >
+         <div class="mahboob flex  " >
+            <span class="text-[#e0e0e0] ml-[16px] font-bold text-lg">محبوب‌ترین‌های فیلیمو</span> 
+            <div class="chose flex w-[120px] border-[1px] rounded-[35px] border-[#ffffff1f] justify-between items-center cursor-pointer text-center p-[2px]" id="swithpop">
+              <div class="sermov   bg-[#313131]" id="series">سریال</div>
+              <div class="sermov " id="movies">فیلم</div>
+            </div>
+         </div>
+
+          <div  id="favoseries">
+            <div class="mt-[30px] w-[100%]  mx-auto  "  >
+              <div class="swiper mySwiper7 py-[20px] px-[10px]">
+                <div class="swiper-wrapper ">
+                  <div class="swiper-slide  zanjoker "><div class="cursor-pointer relative "> 
+                    <div class="absolute z-30 bottom-1  translate-x-[-50%] "><img src="./public/images/exclusive-fa.svg" alt=""></div>
+                    <img src="./public/images/series1.webp" alt="" class="popimgg fav_one "></div></div>
+                  <div class="swiper-slide  zakhmkari"><div class="cursor-pointer"><img src="./public/images/series2.webp" alt="" class="popimgg fav"></div></div>
+                  <div class="swiper-slide karmani"><div class="cursor-pointer"><img src="./public/images/series3.webp" alt="" class="popimgg fav"></div></div>
+                  <div class="swiper-slide golyapooch"><div class="cursor-pointer relative ">
+                    <img src="./public/images/series4.webp" alt="" class="popimgg fav "></div></div>
+                  <div class="swiper-slide lalayii"><div class="cursor-pointer"><img src="./public/images/series5.webp" alt="" class="popimgg fav"></div></div>
+                  <div class="swiper-slide sarasarguj"><div class="cursor-pointer"><img src="./public/images/series6.webp" alt="" class="popimgg fav"></div></div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
+          <div class=" hidden" id="favomovies">
+            <div class="mt-[30px] w-[100%]  mx-auto  "  >
+              <div class="swiper mySwiper7 py-[20px] px-[10px]">
+                <div class="swiper-wrapper ">
+                  <div class="swiper-slide paltosho"><div class="cursor-pointer"><img src="./public/images/mov8.webp" alt="" class="popimgg paltoooo palto_one rounded-[8px] "></div></div>
+                  <div class="swiper-slide sotonfour"><div class="cursor-pointer"><img src="./public/images/mov9.webp" alt="" class="popimgg paltoooo fav"></div></div>
+                  <div class="swiper-slide rooz6"><div class="cursor-pointer"><img src="./public/images/mov1.webp" alt="" class="popimgg paltoooo fav"></div></div>
+                  <div class="swiper-slide palayesh"><div class="cursor-pointer"><img src="./public/images/mov4.webp" alt="" class="popimgg paltoooo fav"></div></div>
+                  <div class="swiper-slide nabatchob"><div class="cursor-pointer"><img src="./public/images/mov3.webp" alt="" class="popimgg paltoooo fav"></div></div>
+                  <div class="swiper-slide awhoo"><div class="cursor-pointer"><img src="./public/images/mov6.webp" alt="" class="popimgg paltoooo fav"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>       
+
+       </div>
+       
+
+
+      <div id="showmovie">
+        <div class="joker flex  w-[100%] h-[400px] md:h-[450px] lg:h-[510px] mb-[64px] z-10">
+          <div class="jokerall w-[100%] h-[100%] bg-cover bg-no-repeat bg-[url('/images/jokerback.webp')] " >
+            <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+              <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                  <div class=" pt-[10px] px-[10px] sm:px-[20px] lg:px-[80px] grid">
+                    <div class="upper flex justify-between relative">
+                      <div class="matnsar grid">
+                        <div class="text-lg font-bold mb-[36px]"><a href="#">جوکر 2 </a></div>
+                        <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: احسان علیخانی</div>
+                        <div class="bg-[#282828] flex justify-center items-center w-fit rounded-[24px] mb-[24px]"><span  class=" px-[15px] text-xs py-[3px] font-light">ریلیتی شو</span></div>
+                        <div class="text-sm font-light mb-[40px]  overflow-hidden whitespace-nowrap">«جوکر۲؛ طبقه بیست و یک» با تغییرات جذابی شروع شده. میزبان این سری برنامه جوکر، کسی نیست جز احسان علیخان...</div>
+                      </div>
+                      <div class="sargijeh w-[220px] h-[177px] absolute left-0 sm:left-[20px] lg:left-[80px] xl:left-[140px] ">
+                        <img src="./public/images/jokerlogo.webp" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider2 w-[100%] h-[108px] lg:h-[170px]  xl:h-[210px] px-[20px] lg:px-[80px] mt-[20px]">
+                    <div class="swiper mySwiper2 w-[100%] flex h-[100%]">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide grid gap-[5px]" >
+                          <a href="#" class="bg-[url('/images/joker1.webp')] classjoker px-[8px] pb-[8px] flex items-end justify-between" >
+                            <div class="timefree w-[100%] flex justify-between" >
+                              <div class="freewatch flex font-light bg-[#1d2b1f] text-[#4dab56] py-[3px] px-[8px] rounded-[24px]" >
+                                <img src="./public/images/icon-play.svg" alt="">
+                                رایگان
+                              </div>
+                              <div class="fulltime bg-[rgba(0,0,0,0.4)] rounded-[8px] py-[3px] px-[8px] text-[#e3e3e3] 
+                              backdrop-blur-[14px]" >1:50:42</div>
+                            </div>
+                          </a>
+                          <a href="#">فصل 1 قسمت 1</a>
+                        </div>
+                        <div class="swiper-slide grid gap-[5px]">
+                          <a href="#" class="bg-[url('/images/joker2.webp')] classjoker"  >
+                            <div class="bluring " >
+                              <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]" ></div>
+                            </div>
+                          </a>
+                          <a href="#">فصل 1 قسمت 2</a>
+                        </div>
+                        <div class="swiper-slide grid gap-[5px]">
+                          <a href="#" class="bg-[url('/images/joker3.webp')] classjoker"    >
+                            <div class="bluring"  >
+                              <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                            </div>
+                          </a>
+                          <a href="#">فصل 1 قسمت 3</a>
+                        </div>
+                        <div class="swiper-slide grid gap-[5px]">
+                          <a href="#" class="bg-[url('/images/joker4.webp')] classjoker"   >
+                            <div class="bluring"  >
+                              <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                            </div>
+                          </a>
+                          <a href="#">فصل 1 قسمت 4</a>
+                        </div>
+                        <div class="swiper-slide grid gap-[5px]">
+                          <a href="#" class="bg-[url('/images/joker5.webp')] classjoker"  >
+                            <div class="bluring" >
+                              <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                            </div>
+                          </a>
+                          <a href="#">فصل 1 قسمت 5</a>
+                        </div>
+                      </div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+         </div>
+      </div>
+
+      <div class="hidden" id="showzakhm">
+        <div class="joker flex  w-[100%] h-[400px] md:h-[450px] lg:h-[510px] mb-[64px] z-10">
+          <div class="jokerall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/zaa.webp')] ">
+               <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                  <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+
+                    <div class=" pt-[10px] px-[10px] sm:px-[20px] lg:px-[80px] grid">
+                      <div class="upper flex justify-between relative">
+                        <div class="matnsar grid">
+                          <div class="text-lg font-bold mb-[36px]"><a href="#">زخم کاری: انتقام</a></div>
+                          <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: محمدحسین مهدویان</div>
+                          <div class="janr flex justify-start gap-[8px]  mb-[24px]">
+                            <div class="janr1 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">درام</span></div>
+                            <div class="janr2 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">خانوادگی</span></div>
+                          </div>
+                          <div class="text-sm font-light mb-[40px]  overflow-hidden whitespace-nowrap">مالک در تله ی سمیرا گرفتار می شود، او با همراهی سیما تلاش می کند تا بازی را به نفع خود تغییر دهد. 
+                            مالک سراغ یکی از نزدیکان...                  </div>
+                        </div>
+                        <div class="sargijeh w-[220px] h-[177px] absolute  left-0 sm:left-[20px] lg:left-[80px] xl:left-[140px]">
+                          <img src="./public/images/zakhm.webp" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="slider2 w-[100%] h-[108px] lg:h-[170px]  xl:h-[210px] px-[20px] lg:px-[80px] mt-[20px]">
+                      <div class="swiper mySwiper2 w-[100%] flex h-[100%]">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide grid gap-[5px]" >
+                            <a href="#" class="bg-[url('/images/zakhm1.webp')] classjoker " >
+                              <div class="bluring " >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]" ></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 2 قسمت 1</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/zakhm2.webp')] classjoker"  >
+                              <div class="bluring " >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]" ></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 2 قسمت 2</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/zakhm3.webp')] classjoker"    >
+                              <div class="bluring"  >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 2 قسمت 3</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/zakhm4.webp')] classjoker"   >
+                              <div class="bluring"  >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 2 قسمت 4</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/zakhm5.webp')] classjoker"  >
+                              <div class="bluring" >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 2 قسمت 5</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/zakhm6.webp')] classjoker"  >
+                              <div class="bluring" >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 2 قسمت 5</a>
+                          </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>  
+          </div>
+         </div>
+      </div>
+
+      <div class="hidden" id="showkarmani">
+        <div class="joker flex  w-[100%] h-[400px] md:h-[450px] lg:h-[510px] mb-[64px] z-10">
+          <div class="jokerall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/karmanilo.webp')]">
+            <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+              <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                  <div class=" pt-[10px]  px-[10px] sm:px-[20px] lg:px-[80px] grid">
+                    <div class="upper flex justify-between relative">
+                      <div class="matnsar grid">
+                        <div class="text-lg font-bold mb-[36px]"><a href="#">کارمانی</a></div>
+                        <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: محمدرضا رضائیان</div>
+                        <div class="bg-[#282828] flex justify-center items-center w-fit rounded-[24px] mb-[24px]"><span  class=" px-[15px] text-xs py-[3px] font-light">ریلیتی شو</span></div>
+                        <div class="text-sm font-light mb-[40px]  overflow-hidden whitespace-nowrap">رسیدن به قله موفقیت هر کسب وکاری، نتیجه تلاش جمعیه، تلاش بی وقفه کارآفرینان و حمایت بی دریغ سرمایه گذاران. کارمانی اینجاست...</div>
+                      </div>
+                      <div class="sargijeh w-[220px] h-[177px] absolute  left-0 sm:left-[20px] lg:left-[80px] xl:left-[140px]">
+                        <img src="./public/images/karmani.webp" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="slider2 w-[100%] h-[108px] lg:h-[170px]  xl:h-[210px] px-[20px] lg:px-[80px] mt-[20px]">
+                    <div class="swiper mySwiper2 w-[100%] flex h-[100%]">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide grid gap-[5px]" >
+                          <a href="#" class="bg-[url('/images/karmani1.webp')] classjoker px-[8px] pb-[8px] flex items-end justify-between" >
+                            <div class="timefree w-[100%] flex justify-between" >
+                              <div class="freewatch flex font-light bg-[#1d2b1f] text-[#4dab56] py-[3px] px-[8px] rounded-[24px]" >
+                                <img src="./public/images/icon-play.svg" alt="">
+                                رایگان
+                              </div>
+                              <div class="fulltime bg-[rgba(0,0,0,0.4)] rounded-[8px] py-[3px] px-[8px] text-[#e3e3e3] backdrop-blur-[14px]" >0:47:40</div>
+                            </div>
+                          </a>
+                          <a href="#">فصل 1 قسمت 1</a>
+                        </div>
+                        <div class="swiper-slide grid gap-[5px]">
+                          <a href="#" class="bg-[url('/images/karmani2.webp')] classjoker"  >
+                            <div class="bluring " >
+                              <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]" ></div>
+                            </div>
+                          </a>
+                          <a href="#">فصل 1 قسمت 2</a>
+                        </div>
+                        <div class="swiper-slide grid gap-[5px]">
+                          <a href="#" class="bg-[url('/images/karmani3.webp')] classjoker"    >
+                            <div class="bluring"  >
+                              <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                            </div>
+                          </a>
+                          <a href="#">فصل 1 قسمت 3</a>
+                        </div>
+                        <div class="swiper-slide grid gap-[5px]">
+                          <a href="#" class="bg-[url('/images/karmani4.webp')] classjoker"   >
+                            <div class="bluring"  >
+                              <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                            </div>
+                          </a>
+                          <a href="#">فصل 1 قسمت 4</a>
+                        </div>
+                        <div class="swiper-slide grid gap-[5px]">
+                          <a href="#" class="bg-[url('/images/karmani5.webp')] classjoker"  >
+                            <div class="bluring" >
+                              <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                            </div>
+                          </a>
+                          <a href="#">فصل 1 قسمت 5</a>
+                        </div>
+                      </div>
+                      <div class="swiper-button-next"></div>
+                      <div class="swiper-button-prev"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              
+            
+          </div>
+         </div>
+      </div>
+
+      <div class="hidden" id="showgol">
+        <div class="joker flex  w-[100%] h-[400px] md:h-[450px] lg:h-[510px] mb-[64px] z-10">
+          <div class="jokerall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/golbg.webp')]">
+               <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                  <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                    <div class=" pt-[10px]  px-[10px] sm:px-[20px] lg:px-[80px] grid">
+                      <div class="upper flex justify-between relative">
+                        <div class="matnsar grid">
+                          <div class="text-lg font-bold mb-[22px]"><a href="#">گل یا پوچ</a></div>
+                          
+                          <div class="bg-[#282828] flex justify-center items-center w-fit rounded-[24px] mb-[24px]"><span  class=" px-[15px] text-xs py-[3px] font-light">ریلیتی شو</span></div>
+                          <div class="text-sm font-light mb-[40px]  overflow-hidden whitespace-nowrap">اگه یک قدمی شکست هم بودی، لبخند بزن تا حریفت به پیروزیش شک کنه!</div>
+                        </div>
+                        <div class="sargijeh w-[220px] h-[177px] absolute  left-0 sm:left-[20px] lg:left-[80px] xl:left-[140px]">
+                          <img src="./public/images/gol.webp" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="slider2 w-[100%] h-[108px] lg:h-[170px]  xl:h-[210px] px-[20px] lg:px-[80px] mt-[20px] " >
+                      <div class="swiper mySwiper2 w-[100%] flex h-[100%]">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide grid gap-[5px]" >
+                            <a href="#" class="bg-[url('/images/gol1.webp')] classjoker px-[8px] pb-[8px] flex items-end justify-between" >
+                              <div class="timefree w-[100%] flex justify-between" >
+                                <div class="freewatch flex font-light bg-[#1d2b1f] text-[#4dab56] py-[3px] px-[8px] rounded-[24px]" >
+                                  <img src="./public/images/icon-play.svg" alt="">
+                                  رایگان
+                                </div>
+                                <div class="fulltime bg-[rgba(0,0,0,0.4)] rounded-[8px] py-[3px] px-[8px] text-[#e3e3e3] backdrop-blur-[14px]" >1:2:34</div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 1 قسمت 1</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/gol2.webp')] classjoker"  >
+                              <div class="bluring " >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]" ></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 1 قسمت 2</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/gol3.webp')] classjoker"    >
+                              <div class="bluring"  >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 1 قسمت 3</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/gol4.webp')] classjoker"   >
+                              <div class="bluring"  >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 1 قسمت 4</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/gol5.webp')] classjoker"  >
+                              <div class="bluring" >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 1 قسمت 5</a>
+                          </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                    </div>
+                      
+                    
+                  </div>
+                </div>
+              </div>
+
+          </div>
+         </div>
+      </div>
+
+      <div class="hidden" id="showlalayi">
+        <div class="joker flex  w-[100%] h-[400px] md:h-[450px] lg:h-[510px] mb-[64px] z-10">
+          <div class="jokerall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/lalyi.webp')]" >
+               <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                  <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                    <div class=" pt-[10px]  px-[10px] sm:px-[20px] lg:px-[80px] grid">
+                      <div class="upper flex justify-between ">
+                        <div class="matnsar grid">
+                          <div class="text-lg font-bold mb-[36px]"><a href="#">لالایی</a></div>
+                          <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: احمد درویشعلی پور</div>
+                          <div class="bg-[#282828] flex justify-center items-center w-fit rounded-[24px] mb-[24px]"><span  class=" px-[15px] text-xs py-[3px] font-light">خانوادگی</span></div>
+                          <div class="text-sm font-light mb-[40px]  overflow-hidden whitespace-nowrap">خانم گلشن مدتهاست در فقدان دوستش الهه که مدیر موسسه گلشنِ جاوید بوده،حال و روز خوشی ندارد،از سویی دیگر بچه های موسسه...  </div>
+                        </div>
+        
+                      </div>
+                    </div>
+                    
+                    <div class="slider2 w-[100%] h-[108px] lg:h-[170px]  xl:h-[210px] px-[20px] lg:px-[80px] mt-[20px]" >
+                      <div class="swiper mySwiper2 w-[100%] flex h-[100%]">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide grid gap-[5px]" >
+                            <a href="#" class="bg-[url('/images/lal.webp')] classjoker " >
+                              <div class="bluring " >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]" ></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 1 قسمت 1</a>
+                          </div>
+                          
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+            
+          </div>
+         </div>
+      </div>
+
+      <div class="hidden" id="showsargig">
+        <div class="joker flex  w-[100%] h-[400px] md:h-[450px] lg:h-[510px] mb-[64px] z-10">
+          <div class="jokerall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/salo.webp')]">
+               <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                  <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                    <div class=" pt-[10px]  px-[10px] sm:px-[20px] lg:px-[80px] grid">
+                      <div class="upper flex justify-between relative">
+                        <div class="matnsar grid">
+                          <div class="text-lg font-bold mb-[36px]"><a href="#">سرگیجه</a></div>
+                          <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: محمد حاتمی</div>
+                          <div class="bg-[#282828] flex justify-center items-center w-fit rounded-[24px] mb-[24px]"><span  class=" px-[15px] text-xs py-[3px] font-light">ریلیتی شو</span></div>
+                          <div class="text-sm font-light mb-[40px]  overflow-hidden whitespace-nowrap">توی قسمت دوم این فصل، گزینه های روی میز زیاده و شرکت کننده ها حق انتخاب دارن. اما تبعات این انتخاب سنگینه. یا باید شکنج...</div>
+                        </div>
+                        <div class="sargijeh w-[220px] h-[177px] absolute  left-0 sm:left-[20px] lg:left-[80px] xl:left-[140px]">
+                          <img src="./public/images/sargijeh.webp" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="slider2 w-[100%] h-[108px] lg:h-[170px]  xl:h-[210px] px-[20px] lg:px-[80px] mt-[20px]" >
+                      <div class="swiper mySwiper2 w-[100%] flex h-[100%]">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide grid gap-[5px]" >
+                            <a href="#" class="bg-[url('/images/sargij1.webp')] classjoker px-[8px] pb-[8px] flex items-end justify-between" >
+                              <div class="timefree w-[100%] flex justify-between" >
+                                <div class="freewatch flex font-light bg-[#1d2b1f] text-[#4dab56] py-[3px] px-[8px] rounded-[24px]" >
+                                  <img src="./public/images/icon-play.svg" alt="">
+                                  رایگان
+                                </div>
+                                <div class="fulltime bg-[rgba(0,0,0,0.4)] rounded-[8px] py-[3px] px-[8px] text-[#e3e3e3] backdrop-blur-[14px]" >1:8:56</div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 1 قسمت 1</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/sargij2.webp')] classjoker"  >
+                              <div class="bluring " >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]" ></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 1 قسمت 2</a>
+                          </div>
+                          <div class="swiper-slide grid gap-[5px]">
+                            <a href="#" class="bg-[url('/images/sargij3.webp')] classjoker"    >
+                              <div class="bluring"  >
+                                <div class="lock" ><img src="./public/images/lock.webp" alt="" class="w-[24px] h-[24px]"></div>
+                              </div>
+                            </a>
+                            <a href="#">فصل 1 قسمت 3</a>
+                          </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+            
+          </div>
+         </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="hidden" id="paltoshotori">
+        <div class="palto flex  w-[100%] h-[394px] mb-[64px]">
+          <div class="paltoall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/palto.webp')]" >
+               <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                  <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                    <div class="describe  px-[10px] sm:px-[20px] lg:px-[80px] pt-[10px] flex justify-between relative">
+                      <div class="mtnpalto grid">
+                        <div class="text-lg font-bold mb-[36px]"><a href="#">پالتو شتری</a></div>
+                        <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: مهدی علی میرزایی</div>
+                        <div class="janr flex justify-start gap-[8px]  mb-[24px]">
+                          <div class="scor bg-[rgba(255,196,60,.12)] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[10px] text-xs py-[3px] font-light text-[#fdc13c] flex gap-1">
+                            <img src="./public/images/dcor.webp" alt="" class="w-[22px] h-[16px]">
+                            4</span></div>
+                          <div class="janr1 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">کمدی</span></div>
+                          <div class="janr2 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">خانوادگی</span></div>
+                        </div>
+                        <div class="text-sm font-light  mb-[24px] overflow-hidden whitespace-nowrap">این فیلم دربارهٔ پسری جوان است که در رشته فلسفه درس
+                           می خواند. او یک پالتوی شتری رنگ از پدرش به ارث برده اما این پالتو...
+                        </div>
+                        <a href="https://www.filimo.com/payment" class="buyeshterak py-[12px] px-[70px] w-fit mb-[24px]">
+                          <span class="view">
+                            <svg class="hidden">
+                              <g id="ui-icon-subscription" viewBox="0 0 24 24"><path d="M19 4H5A3 3 0 0 0 2 7V17a3 3 0 0 0 3 3H19a3 3 0 0 0 3-3V7A3 3 0 0 0 19 4Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7A1 1 0 0 1 5 6H19a1 1 0 0 1 1 1Z"></path><path d="M12.4 11 9 8.74A1.25 1.25 0 0 0 7 9.79v4.42A1.26 1.26 0 0 0 9 15.27l3.44-2.21A1.26 1.26 0 0 0 12.4 11Z"></path><circle cx="16" cy="9" r="1"></circle><circle cx="16" cy="15" r="1"></circle><circle cx="16" cy="12" r="1"></circle></g>
+                            </svg>
+                            <svg class=" fill-white flex w-[20px] h-[20px] align-middle" viewBox="0 0 24 24" data-gtm-vis-has-fired2323515_2471="1"><use xlink:href="#ui-icon-subscription" data-gtm-vis-has-fired2323515_2471="1"></use></svg>
+                        </span>
+                          <p class="text-center text-xs ">خرید اشتراک و تماشا</p>
+                        </a>
+                        <div class="font-light">بالای ۱۵ سال - یک ساعت و ۳۱ دقیقه - محصول ایران - ۱۳۹۷ - کیفیت HD</div>
+                      </div>
+                      <div class="logopalto w-[220px] h-[119px] absolute  left-[20px] lg:left-[80px] xl:left-[140px]">
+                        <img src="./public/images/paltologo.webp" alt="">
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+
+          </div>
+      </div>
+      </div>
+      
+      
+
+
+      <div class="hidden" id="soton14">
+        <div class="palto flex  w-[100%] h-[394px] mb-[64px]">
+          <div class="paltoall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/soton.webp')]" >
+               <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                  <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                    <div class="describe  px-[10px] sm:px-[20px] lg:px-[80px] pt-[10px] flex justify-between relative">
+                      <div class="mtnpalto grid">
+                        <div class="text-lg font-bold mb-[36px]"><a href="#">ستون ۱۴</a></div>
+                        <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: امیرحسین همتی</div>
+                        <div class="janr flex justify-start gap-[8px]  mb-[24px]">
+                          <div class="scor bg-[rgba(255,196,60,.12)] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[10px] text-xs py-[3px] font-light text-[#fdc13c] flex gap-1">
+                            <img src="./public/images/dcor.webp" alt="" class="w-[22px] h-[16px]">
+                            4.5</span></div>
+                          <div class="janr1 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">درام</span></div>
+                          <div class="janr2 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">هیجان انگیز</span></div>
+                        </div>
+                        <div class="text-sm font-light  mb-[24px] overflow-hidden whitespace-nowrap">ساناز و یاشار وقتی می ترسند، بازی می کنند، این بار با زندگی جلال.
+                        </div>
+                        <a href="https://www.filimo.com/payment" class="buyeshterak py-[12px] px-[70px] w-fit mb-[24px]">
+                          <span class="view">
+                            <svg class="hidden">
+                              <g id="ui-icon-subscription" viewBox="0 0 24 24"><path d="M19 4H5A3 3 0 0 0 2 7V17a3 3 0 0 0 3 3H19a3 3 0 0 0 3-3V7A3 3 0 0 0 19 4Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7A1 1 0 0 1 5 6H19a1 1 0 0 1 1 1Z"></path><path d="M12.4 11 9 8.74A1.25 1.25 0 0 0 7 9.79v4.42A1.26 1.26 0 0 0 9 15.27l3.44-2.21A1.26 1.26 0 0 0 12.4 11Z"></path><circle cx="16" cy="9" r="1"></circle><circle cx="16" cy="15" r="1"></circle><circle cx="16" cy="12" r="1"></circle></g>
+                            </svg>
+                            <svg class=" fill-white flex w-[20px] h-[20px] align-middle" viewBox="0 0 24 24" data-gtm-vis-has-fired2323515_2471="1"><use xlink:href="#ui-icon-subscription" data-gtm-vis-has-fired2323515_2471="1"></use></svg>
+                        </span>
+                          <p class="text-center text-xs ">خرید اشتراک و تماشا</p>
+                        </a>
+                        <div class="font-light">بالای ۱۵ سال - یک ساعت و ۳۱ دقیقه - محصول ایران - ۱۴۰۰  - کیفیت HD</div>
+                      </div>
+                      <div class="logopalto w-[220px] h-[119px] absolute  left-[20px] lg:left-[80px] xl:left-[140px]">
+                        <img src="./public/images/sotolog.webp" alt="">
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+
+          </div>
+      </div>
+      </div>
+
+
+      <div class="hidden" id="rozegari">
+        <div class="palto flex  w-[100%] h-[394px] mb-[64px]">
+          <div class="paltoall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/rozegari.webp')]">
+               <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                  <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                    <div class="describe  px-[10px] sm:px-[20px] lg:px-[80px] pt-[10px] flex justify-between relative">
+                      <div class="mtnpalto grid">
+                        <div class="text-lg font-bold mb-[36px]"><a href="#">روز ششم</a></div>
+                        <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: حجت قاسم زاده اصل</div>
+                        <div class="janr flex justify-start gap-[8px]  mb-[24px]">
+                          <div class="scor bg-[rgba(255,196,60,.12)] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[10px] text-xs py-[3px] font-light text-[#fdc13c] flex gap-1">
+                            <img src="./public/images/dcor.webp" alt="" class="w-[22px] h-[16px]">
+                            5.4</span></div>
+                          <div class="janr1 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">جنایی</span></div>
+                          <div class="janr2 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">رازآلود</span></div>
+                        </div>
+                        <div class="text-sm font-light  mb-[24px] overflow-hidden whitespace-nowrap">احمد پس از آزادی از زندان فقط پنج روز فرصت دارد پاسخ چند معما را که به وقایع گذشته مربوط است، پیدا کند و اگر موفق نشود کشته خواهد شد.
+                        </div>
+                        <a href="https://www.filimo.com/payment" class="buyeshterak py-[12px] px-[70px] w-fit mb-[24px]">
+                          <span class="view">
+                            <svg class="hidden">
+                              <g id="ui-icon-subscription" viewBox="0 0 24 24"><path d="M19 4H5A3 3 0 0 0 2 7V17a3 3 0 0 0 3 3H19a3 3 0 0 0 3-3V7A3 3 0 0 0 19 4Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7A1 1 0 0 1 5 6H19a1 1 0 0 1 1 1Z"></path><path d="M12.4 11 9 8.74A1.25 1.25 0 0 0 7 9.79v4.42A1.26 1.26 0 0 0 9 15.27l3.44-2.21A1.26 1.26 0 0 0 12.4 11Z"></path><circle cx="16" cy="9" r="1"></circle><circle cx="16" cy="15" r="1"></circle><circle cx="16" cy="12" r="1"></circle></g>
+                            </svg>
+                            <svg class=" fill-white flex w-[20px] h-[20px] align-middle" viewBox="0 0 24 24" data-gtm-vis-has-fired2323515_2471="1"><use xlink:href="#ui-icon-subscription" data-gtm-vis-has-fired2323515_2471="1"></use></svg>
+                        </span>
+                          <p class="text-center text-xs ">خرید اشتراک و تماشا</p>
+                        </a>
+                        <div class="font-light">بالای ۱۵ سال - یک ساعت و ۳۱ دقیقه - محصول ایران - ۱۳۹۹   - کیفیت HD</div>
+                      </div>
+                      <div class="logopalto w-[220px] h-[119px] absolute  left-[20px] lg:left-[80px] xl:left-[140px]">
+                        <img src="./public/images/roz6.webp" alt="">
+                      </div>
+                    </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+      </div>
+      
+      
+      <div class="hidden" id="palayeshgah">
+        <div class="palto flex  w-[100%] h-[394px] mb-[64px]">
+          <div class="paltoall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/pala.webp')]">
+               <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                  <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                    <div class="describe  px-[10px] sm:px-[20px] lg:px-[80px] pt-[10px] flex justify-between relative">
+                      <div class="mtnpalto grid">
+                        <div class="text-lg font-bold mb-[36px]"><a href="#">پالایشگاه</a></div>
+                        <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: مهرداد خوشبخت</div>
+                        <div class="janr flex justify-start gap-[8px]  mb-[24px]">
+                          <div class="scor bg-[rgba(255,196,60,.12)] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[10px] text-xs py-[3px] font-light text-[#fdc13c] flex gap-1">
+                            <img src="./public/images/dcor.webp" alt="" class="w-[22px] h-[16px]">
+                            4.8</span></div>
+                          <div class="janr1 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">درام</span></div>
+                          <div class="janr2 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">جنگی</span></div>
+                        </div>
+                        <div class="text-sm font-light  mb-[24px] overflow-hidden whitespace-nowrap">در سال ۱۳۵۹ همزمان با جنگ تحمیلی، تعدادی از مهندسین پالایشگاه نفت آبادان در تلاش هستند با امکانات و تجهیزاتی...
+                        </div>
+                        <a href="https://www.filimo.com/payment" class="buyeshterak py-[12px] px-[70px] w-fit mb-[24px]">
+                          <span class="view">
+                            <svg class="hidden">
+                              <g id="ui-icon-subscription" viewBox="0 0 24 24"><path d="M19 4H5A3 3 0 0 0 2 7V17a3 3 0 0 0 3 3H19a3 3 0 0 0 3-3V7A3 3 0 0 0 19 4Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7A1 1 0 0 1 5 6H19a1 1 0 0 1 1 1Z"></path><path d="M12.4 11 9 8.74A1.25 1.25 0 0 0 7 9.79v4.42A1.26 1.26 0 0 0 9 15.27l3.44-2.21A1.26 1.26 0 0 0 12.4 11Z"></path><circle cx="16" cy="9" r="1"></circle><circle cx="16" cy="15" r="1"></circle><circle cx="16" cy="12" r="1"></circle></g>
+                            </svg>
+                            <svg class=" fill-white flex w-[20px] h-[20px] align-middle" viewBox="0 0 24 24" data-gtm-vis-has-fired2323515_2471="1"><use xlink:href="#ui-icon-subscription" data-gtm-vis-has-fired2323515_2471="1"></use></svg>
+                        </span>
+                          <p class="text-center text-xs ">خرید اشتراک و تماشا</p>
+                        </a>
+                        <div class="font-light">بالای ۱۵ سال - یک ساعت و ۳۱ دقیقه - محصول ایران - ۱۴۰۱ - کیفیت HD</div>
+                      </div>
+                      <div class="logopalto w-[220px] h-[119px] absolute  left-[20px] lg:left-[80px] xl:left-[140px]">
+                        <img src="./public/images/palalog.webp" alt="">
+                      </div>
+                    </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+      </div>
+      </div>
+
+
+      <div class="hidden" id="lolipop">
+        <div class="palto flex  w-[100%] h-[394px] mb-[64px]">
+          <div class="paltoall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/lolipop.webp')]" >
+               <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                  <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                    <div class="describe  px-[10px] sm:px-[20px] lg:px-[80px] pt-[10px] flex justify-between relative">
+                      <div class="mtnpalto grid">
+                        <div class="text-lg font-bold mb-[36px]"><a href="#">آب نبات چوبی</a></div>
+                        <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: محمدحسین فرح بخش</div>
+                        <div class="janr flex justify-start gap-[8px]  mb-[24px]">
+                          <div class="scor bg-[rgba(255,196,60,.12)] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[10px] text-xs py-[3px] font-light text-[#fdc13c] flex gap-1">
+                            <img src="./public/images/dcor.webp" alt="" class="w-[22px] h-[16px]">
+                            4.3</span></div>
+                          <div class="janr1 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">درام</span></div>
+                          <div class="janr2 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">جنایی</span></div>
+                        </div>
+                        <div class="text-sm font-light  mb-[24px] overflow-hidden whitespace-nowrap">فیلم آب نبات چوبی مسائل جوانان و مشکلات تفاوت نسلی را بررسی می کند. اختلاف دیدگاه نسل قدیم و جدید درباره مشکلات خانواده...
+                        </div>
+                        <a href="https://www.filimo.com/payment" class="buyeshterak py-[12px] px-[70px] w-fit mb-[24px]">
+                          <span class="view">
+                            <svg class="hidden">
+                              <g id="ui-icon-subscription" viewBox="0 0 24 24"><path d="M19 4H5A3 3 0 0 0 2 7V17a3 3 0 0 0 3 3H19a3 3 0 0 0 3-3V7A3 3 0 0 0 19 4Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7A1 1 0 0 1 5 6H19a1 1 0 0 1 1 1Z"></path><path d="M12.4 11 9 8.74A1.25 1.25 0 0 0 7 9.79v4.42A1.26 1.26 0 0 0 9 15.27l3.44-2.21A1.26 1.26 0 0 0 12.4 11Z"></path><circle cx="16" cy="9" r="1"></circle><circle cx="16" cy="15" r="1"></circle><circle cx="16" cy="12" r="1"></circle></g>
+                            </svg>
+                            <svg class=" fill-white flex w-[20px] h-[20px] align-middle" viewBox="0 0 24 24" data-gtm-vis-has-fired2323515_2471="1"><use xlink:href="#ui-icon-subscription" data-gtm-vis-has-fired2323515_2471="1"></use></svg>
+                        </span>
+                          <p class="text-center text-xs ">خرید اشتراک و تماشا</p>
+                        </a>
+                        <div class="font-light">بالای ۱۵ سال - یک ساعت و ۲۳ دقیقه - محصول ایران - ۱۳۹۴ - کیفیت HD</div>
+                      </div>
+                      <div class="logopalto w-[220px] h-[119px] absolute  left-[20px] lg:left-[80px] xl:left-[140px]">
+                        <img src="./public/images/loli.webp" alt="">
+                      </div>
+                    </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+      </div>
+      </div>
+
+
+      <div class="hidden" id="aahoo">
+        <div class="palto flex  w-[100%] h-[394px] mb-[64px]">
+          <div class="paltoall w-[100%] h-[100%] bg-cover bg-no-repeat  bg-[url('/images/ahoo.webp')]" >
+               <div class="w-[100%] h-[100%] bg-gradient-to-l from-[rgba(21,21,21,1)15%] to-[rgba(21,21,21,0)100%]">
+                <div class="w-[100%] h-[100%] bg-gradient-to-r from-[rgba(21,21,21,1)2%] to-[rgba(21,21,21,0)10%]">
+                  <div class="w-[100%] h-[100%] bg-gradient-to-b from-[rgba(21,21,21,1)4%] to-[rgba(21,21,21,0)45%]">
+                    <div class="describe  px-[10px] sm:px-[20px] lg:px-[80px] pt-[10px] flex justify-between relative">
+                      <div class="mtnpalto grid">
+                        <div class="text-lg font-bold mb-[36px]"><a href="#">آهو</a></div>
+                        <div class="text-[#a1a1a1] font-light text-xs mb-[22px]">کارگردان: هوشنگ گلمکانی</div>
+                        <div class="janr flex justify-start gap-[8px]  mb-[24px]">
+                          <div class="scor bg-[rgba(255,196,60,.12)] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[10px] text-xs py-[3px] font-light text-[#fdc13c] flex gap-1">
+                            <img src="./public/images/dcor.webp" alt="" class="w-[22px] h-[16px]">
+                            4.2</span></div>
+                          <div class="janr1 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">درام</span></div>
+                          <div class="janr2 bg-[#282828] flex justify-center items-center w-fit rounded-[24px] "><span  class=" px-[15px] text-xs py-[3px] font-light">خانوادگی</span></div>
+                        </div>
+                        <div class="text-sm font-light  mb-[24px] overflow-hidden whitespace-nowrap">آهو حکایت انزوای خودخواسته دختری است که آرزوهایش را بر باد رفته می‌بیند، اما هنوز امیدش را از دست نداده است.
+                        </div>
+                        <a href="https://www.filimo.com/payment" class="buyeshterak py-[12px] px-[70px] w-fit mb-[24px]">
+                          <span class="view">
+                            <svg class="hidden">
+                              <g id="ui-icon-subscription" viewBox="0 0 24 24"><path d="M19 4H5A3 3 0 0 0 2 7V17a3 3 0 0 0 3 3H19a3 3 0 0 0 3-3V7A3 3 0 0 0 19 4Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7A1 1 0 0 1 5 6H19a1 1 0 0 1 1 1Z"></path><path d="M12.4 11 9 8.74A1.25 1.25 0 0 0 7 9.79v4.42A1.26 1.26 0 0 0 9 15.27l3.44-2.21A1.26 1.26 0 0 0 12.4 11Z"></path><circle cx="16" cy="9" r="1"></circle><circle cx="16" cy="15" r="1"></circle><circle cx="16" cy="12" r="1"></circle></g>
+                            </svg>
+                            <svg class=" fill-white flex w-[20px] h-[20px] align-middle" viewBox="0 0 24 24" data-gtm-vis-has-fired2323515_2471="1"><use xlink:href="#ui-icon-subscription" data-gtm-vis-has-fired2323515_2471="1"></use></svg>
+                        </span>
+                          <p class="text-center text-xs ">خرید اشتراک و تماشا</p>
+                        </a>
+                        <div class="font-light">بالای ۱۵ سال - یک ساعت و ۳۱  دقیقه - محصول ایران - ۱۳۹۹  - کیفیت HD</div>
+                      </div>
+                      <div class="logopalto w-[220px] h-[119px] absolute  left-[20px] lg:left-[80px] xl:left-[140px]">
+                        <img src="./public/images/aholo.webp" alt="">
+                      </div>
+                    </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+    <!--Tamasha-->
+    <div class="alldevice mb-[64px] px-[20px] lg:px-[80px]  w-[100%] flex justify-start gap-[50px] items-center">
+       <div class="photodiv hidden md:block">
+        <img src="./public/images/tamasha.webp" alt="">
+       </div>
+       <div class="matndiv grid">
+        <div class="font-bold text-lg mb-[16px]">تماشای فیلیمو با همه دستگاه‌ها</div>
+        <div class="text-[#d8d8d8] text-[15px] leading-[25px] font-thin mb-[32px]">می‌توانید فیلیمو را به صورت هم‌زمان روی 3 دستگاه مختلف مثل موبایل، تبلت، لپ‌تاپ، تلویزیون و... تماشا کنید.</div>
+        <div class="md:hidden mb-[16px] w-[100%]">
+          <img src="./public/images/device2.webp" alt="">
+        </div>
+        <div class="devicei">
+          <div class="w-[27px] h-[18px]"><img src="./public/images/laptop.webp" alt=""></div>
+          <div class="grid gap-[16px]">
+            <div class="laptopp">کامپیوتر و لپ‌تاپ</div>
+            <div class="modelss ">windows PC - MacOS - Chorom OS</div>
+          </div>
+        </div>
+        <div class="devicei">
+          <div class="w-[22px] h-[26px]"><img src="./public/images/mobile.webp" alt=""></div>
+          <div class="grid gap-[16px]">
+            <div class="laptopp">موبایل و تبلت</div>
+            <div class="modelss ">Android Phone & Tablets - Iphone and Ipad - Amazon Fire Tablets</div>
+          </div>
+        </div>
+        <div class="devicei">
+          <div class="w-[27px] h-[18px]"><img src="./public/images/game.webp" alt=""></div>
+          <div class="grid gap-[16px]">
+            <div class="laptopp">کنسول‌های بازی (Browser)</div>
+            <div class="modelss ">Xbox Series S - Xbox Seris X - PS5 - PS4</div>
+          </div>
+        </div>
+        <a href="https://www.filimo.com/payment" class="buyeshterak py-[10px] px-[16px] w-fit">
+          <span class="view">
+            <svg class="hidden">
+              <g id="ui-icon-subscription" viewBox="0 0 24 24"><path d="M19 4H5A3 3 0 0 0 2 7V17a3 3 0 0 0 3 3H19a3 3 0 0 0 3-3V7A3 3 0 0 0 19 4Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7A1 1 0 0 1 5 6H19a1 1 0 0 1 1 1Z"></path><path d="M12.4 11 9 8.74A1.25 1.25 0 0 0 7 9.79v4.42A1.26 1.26 0 0 0 9 15.27l3.44-2.21A1.26 1.26 0 0 0 12.4 11Z"></path><circle cx="16" cy="9" r="1"></circle><circle cx="16" cy="15" r="1"></circle><circle cx="16" cy="12" r="1"></circle></g>
+            </svg>
+            <svg class=" fill-white flex w-[20px] h-[20px] align-middle" viewBox="0 0 24 24" data-gtm-vis-has-fired2323515_2471="1"><use xlink:href="#ui-icon-subscription" data-gtm-vis-has-fired2323515_2471="1"></use></svg>
+        </span>
+          <p class="text-center text-xs ">خرید اشتراک و تماشا</p>
+        </a>
+       </div>
+    </div>  
+    <!--Tv-->
+    <div class="tv bg-[rgba(0,0,0,.4)] h-[480px] w-[100%] relative flex justify-end items-end pt-[60px] mt-[400px] sm:mt-[500px] md:mt-[0px]">
+        <div class="phototv w-[575px] lg:w-[785px]  bottom-0  hidden md:block ">
+          <img src="./public/images/TVBG.webp" alt="" class="">
+        </div>
+        <div class="matntv  absolute right-0 bottom-[60px] bg-[rgba(0,0,0,.4)] md:bg-transparent ">
+          <div class="pr-[20px] lg:pr-[80px] mb-[25px] font-bold text-lg mt-[60px] md:mt-[0px] ">چطور با تلویزیون، فیلیمو تماشا کنم؟</div>
+          <div class="ddjjd  px-[20px] lg:pl-[0px] lg:pr-[80px]  md:max-w-[500px] mb-[12px] md:mb-[32px] pb-[16px] text-[#d8d8d8] text-[13px] leading-[22px] font-thin ">ما برای راحتی شما و تماشای فیلیمو روی تلویزیون‌های مختلف 6 روش را فراهم کردیم. هرکدام از این 6 روش یک ویدیو آموزشی دارند که می‌توانید از لینک زیر، آن‌ها را تماشا کنید و روشی که با تلویزیون شما سازگار است را انتخاب کنید.
+          </div>
+          <div class="md:hidden">
+            <img src="./public/images/TVBG-yaghi.webp" alt="">
+          </div>
+          <div class="devicei px-[20px] lg:px-[80px]">
+            <div class="w-[27px] h-[18px]"><img src="./public/images/TV.webp" alt=""></div>
+            <div class="grid gap-[16px]">
+              <div class="laptopp">تلویزیون</div>
+              <div class="modelss ">Amazon Fire TV - LG TVs - Chrome Cast - Apple TV - Android TV devices - Samsung</div>
+            </div>
+          </div>
+          <div class="devicei px-[20px] lg:px-[80px]">
+            <div class="w-[27px] h-[18px]"><img src="./public/images/androidTV.webp" alt=""></div>
+            <div class="grid gap-[16px]">
+              <div class="laptopp">اندروید تی‌وی</div>
+              <div class="modelss ">NVIDIA - amazon - xiaomi - minix - skystream - turewell - ematic - humax - matricom</div>
+            </div>
+          </div>
+          <a href="https://www.filimo.com/tv" class="yo py-[10px] px-[16px] flex justify-center md:w-fit mx-[20px] lg:mx-[80px]">
+            <p class="text-center text-xs ">ویدیوهای آموزشی تماشا با تلویزیون</p>
+            <span class="">
+              <svg class="hidden">
+                <g id="ui-icon-arrow_back_ios" viewBox="0 0 24 24"><path d="M16 20.5a1 1 0 0 1-.68-.27l-8-7.5a1 1 0 0 1 0-1.46l8-7.5a1 1 0 1 1 1.36 1.46L9.46 12l7.22 6.77a1 1 0 0 1 .05 1.41A1 1 0 0 1 16 20.5Z"></path></g>
+              </svg>
+              <svg class=" fill-white w-[18px] h-[18px] " viewBox="0 0 24 24"><use xlink:href="#ui-icon-arrow_back_ios"></use></svg>
+          </span>
+          </a>
+        </div>
+    </div>
+    <!--mohtava-->
+    <div class="py-[64px] px-[20px] md:px-[30px]  lg:px-[80px]">
+      <div class="mohtava font-bold text-xl mb-[32px]">محتواهای رایگان</div>
+      <div class="slider3 w-[100%]  ">
+        <div class="swiper mySwiper3 w-[100%] h-[100%] py-[20px] px-[10px]">
+          <div class="swiper-wrapper "> 
+            <div class="swiper-slide"><div class="cursor-pointer grid gap-[10px]"><div class="lilip relative"><img src="./public/images/free1.webp" alt="" class="rounded-[10px] opacity-[0.65] bigimg ">
+              <div class="freefreaa">
+                <img src="./public/images/icon-play.svg" alt="">
+                رایگان
+              </div>
+            </div><span class="font-light ">پایتخت</span></div></div>
+            <div class="swiper-slide"><didiv class="cursor-pointer grid gap-[10px]"><div class="lilip"><img src="./public/images/free2.webp" alt="" class="rounded-[10px] opacity-[0.65] bigimg ">
+              <div class="freefreaa">
+                <img src="./public/images/icon-play.svg" alt="">
+                رایگان
+              </div>
+            </div><span class="font-light">عقرب</span></didiv></div>
+            <div class="swiper-slide"><div class="cursor-pointer grid gap-[10px]"><div class="lilip"><img src="./public/images/free3.webp" alt="" class="rounded-[10px] opacity-[0.65] bigimg">
+              <div class="freefreaa">
+                <img src="./public/images/icon-play.svg" alt="">
+                رایگان
+              </div>
+            </div><span class="font-light">ملکه گدایان</span></div></div>
+            <div class="swiper-slide"><div class="cursor-pointer grid gap-[10px]"><div class="lilip"><img src="./public/images/free4.webp" alt="" class="rounded-[10px] opacity-[0.65] bigimg">              <div class="freefreaa">
+                <img src="./public/images/icon-play.svg" alt="">
+                رایگان
+              </div> 
+            </div><span class="font-light">ویرانگر</span></div></div>
+            <div class="swiper-slide"><div class="cursor-pointer grid gap-[10px]"><div class="lilip"><img src="./public/images/free5.webp" alt="" class="rounded-[10px] opacity-[0.65] bigimg">              <div class="freefreaa">
+                <img src="./public/images/icon-play.svg" alt="">
+                رایگان
+              </div> 
+            </div><span class="font-light">شاهرگ</span></div></div>
+            <div class="swiper-slide"><div class="cursor-pointer grid gap-[10px]"><div class="lilip"><img src="./public/images/free6.webp" alt="" class="rounded-[10px] opacity-[0.65] bigimg">              <div class="freefreaa">
+                <img src="./public/images/icon-play.svg" alt="">
+                رایگان
+              </div> 
+            </div><span class="font-light">بالشها</span></div></div>
+            <div class="swiper-slide"><div class="cursor-pointer grid gap-[10px]"><div class="lilip"><img src="./public/images/free7.webp" alt="" class="rounded-[10px] opacity-[0.65] bigimg">              <div class="freefreaa">
+                <img src="./public/images/icon-play.svg" alt="">
+                رایگان
+              </div> 
+            </div><span class="font-light">حماسه دره شیلر</span></div></div>
+            <div class="swiper-slide"><div class="cursor-pointer grid gap-[10px]"><div class="lilip"><img src="./public/images/free8.webp" alt="" class="rounded-[10px] opacity-[0.65] bigimg">              <div class="freefreaa">
+                <img src="./public/images/icon-play.svg" alt="">
+                رایگان
+              </div> 
+            </div><span class="font-light">راز دشت تاران</span></div></div>
+            <div class="swiper-slide"><div class="cursor-pointer grid gap-[10px]"><div class="lilip"><img src="./public/images/free9.webp" alt="" class="rounded-[10px] opacity-[0.65] bigimg">              <div class="freefreaa">
+                <img src="./public/images/icon-play.svg" alt="">
+                رایگان
+              </div> 
+            </div><span class="font-light">چپ دست</span></div></div>
+            <div class="swiper-slide"><div class="cursor-pointer grid gap-[10px]"><div class="lilip"><img src="./public/images/free10.webp" alt="" class="rounded-[10px] opacity-[0.65] bigimg">              <div class="freefreaa">
+                <img src="./public/images/icon-play.svg" alt="">
+                رایگان
+              </div> 
+            </div><span class="font-light">پنجه در خاک</span></div></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--linear-->
+    <div class="bluegirl w-[100%]  relative"  >
+       <div class="linee w-[100%] h-[100%] absolute top-0 bottom-0 left-0 right-0 bg-gradient-245 from-[rgba(5,195,255,1)0%] to-[rgba(21,21,21,1)40%] opacity-[0.2] -z-50">
+       </div>
+       <div class=" px-[20px] lg:px-[80px] z-20 w-[100%] h-[100%] mx-auto pt-[42px] md:pt-[0px]">
+        <div class="w-[100%] sm:w-[85%] h-[100%] flex flex-col-reverse md:flex-row justify-between  mx-auto ">
+          <div class="photomoana h-[100%]  md:max-w-[41%] flex justify-center pt-[42px]"><img src="./public/images/bg-kids.webp" alt="" class=" h-[100%] w-auto "></div>
+          <div class="mtnmoana md:max-w-[50%] flex flex-col justify-center items-start ">
+            <div class="pb-[16px] text-[22px] font-light">دنیایی متنوع از فیلم و کارتون‌های کودکانه</div>
+            <div class="pb-[32px] opacity-[0.5] font-light text-[14px] leading-[20px]">ساخت فیلیمو کودک این امکان را می‌دهد که با انتخاب سن فرزندتان،
+              یک فضای امن برای تماشای کودک بسازید؛
+              یعنی محتوای مخصوص سن خودش را ببیند و به بقیه فیلم و سریال‌ها دسترسی نداشته‌باشد.</div>
+            <div class="flex ">
+              <a href="https://www.filimo.com/signin" class="ml-[12px] kodakfilimo hover:opacity-90">فیلیمو کودک بساز</a>
+              <a href="https://www.filimo.com/kids" class="kodakfilimo hover:opacity-90">تماشای فیلیمو کودک</a>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <!--cinema-->
+     <div class="w-[100%]  py-[64px] bg-[url('/images/bg-cinama.webp')] bg-no-repeat bg-cover">
+      <div class="px-[20px] lg:px-[80px] flex flex-col gap-[40px] items-center justify-center">
+        <div class="upcinama w-[100%] flex flex-col justify-center items-center">
+          <div class="firstcinama w-[100%] text-center text-[20px] leading-[20px] mb-[32px]">سینما آنلاین فیلیمو</div>
+          <div class="secondcinama w-[100%] flex justify-evenly flex-col md:flex-row items-center">
+            <div class="tik flex items-center mb-[16px] md:mb-[0px]">
+              <span  class="tiktik">
+                <svg class=" hidden">
+                  <g id="ui-icon-check" viewBox="0 0 24 24"><path d="M9.77 18.73a1 1 0 0 1-.71-.29L4.3 13.71a1 1 0 0 1 0-1.41 1 1 0 0 1 1.42 0l4 3.95 8.54-10.6A1 1 0 1 1 19.78 6.9L10.54 18.36a1 1 0 0 1-.72.37Z"></path></g>
+                </svg>
+                <svg class=" fill-[#1cb561] w-[14px] h-[14px] " viewBox="0 0 24 24"><use xlink:href="#ui-icon-check"></use></svg>
+              </span>
+              <span class="text-[#d8d8d8] font-light text-[15px] leading-[24px]">فیلم‌های روز سینمای ایران</span>
+            </div>
+            <div class="tik flex items-center mb-[16px] md:mb-[0px]">
+              <span  class="tiktik">
+                <svg class=" hidden">
+                  <g id="ui-icon-check" viewBox="0 0 24 24"><path d="M9.77 18.73a1 1 0 0 1-.71-.29L4.3 13.71a1 1 0 0 1 0-1.41 1 1 0 0 1 1.42 0l4 3.95 8.54-10.6A1 1 0 1 1 19.78 6.9L10.54 18.36a1 1 0 0 1-.72.37Z"></path></g>
+                </svg>
+                <svg class=" fill-[#1cb561] w-[14px] h-[14px] " viewBox="0 0 24 24"><use xlink:href="#ui-icon-check"></use></svg>
+              </span>
+              <span class="text-[#d8d8d8] font-light text-[15px] leading-[24px]">
+۸ ساعت زمان برای مشاهده فیلم در هر کجا</span>
+            </div>
+            <div class="tik flex items-center mb-[16px] md:mb-[0px]">
+              <span  class="tiktik">
+                <svg class=" hidden">
+                  <g id="ui-icon-check" viewBox="0 0 24 24"><path d="M9.77 18.73a1 1 0 0 1-.71-.29L4.3 13.71a1 1 0 0 1 0-1.41 1 1 0 0 1 1.42 0l4 3.95 8.54-10.6A1 1 0 1 1 19.78 6.9L10.54 18.36a1 1 0 0 1-.72.37Z"></path></g>
+                </svg>
+                <svg class=" fill-[#1cb561] w-[14px] h-[14px] " viewBox="0 0 24 24"><use xlink:href="#ui-icon-check"></use></svg>
+              </span>
+              <span class="text-[#d8d8d8] font-light text-[15px] leading-[24px]">
+                خرید یک بلیت برای تماشا همراه با همه خانواده</span>
+            </div>
+          </div>
+        </div>
+        <div class="downcinama w-[100%] md:w-[528px] h-fit sm:h-[248px]  text-center p-[10px] rounded-[12px] border border-solid border-[#33353d] bg-[rgba(255,255,255,.06)] backdrop-blur-[32px] relative">
+          <div class="ekron absolute left-[25px] bg-[rgba(0,0,0,0.3)] w-max py-[4px] px-[6px] rounded-[16px] flex">
+            <img src="./public/images/ticket.webp" alt="" class="w-[20%] mr-[2px]">
+            <span class="font-light text-xs">اکران آنلاین </span>
+          </div>
+          <div class="bibadan flex justify-start mb-[5px] sm:mb-[0px]">
+            <a href="#" class="photobibadan mb-[4px] ml-[16px] w-[100px] sm:w-[165px]"><img src="./public/images/mov_148573_183474.webp" alt="" class="rounded-[8px]"></a>
+            <div class="leftbibdn flex flex-col justify-between">
+              <a href="#" class="text-base text-start">بی بدن</a>
+              <span class=" font-light text-[#d8d8d8] text-[13px] mb-[24px] text-start">کارگردان:  null</span>
+              <div class="flex mb-[24px] gap-[8px] text-start">
+                <span class="jenayiidrm ">جنایی</span>
+                <span class="jenayiidrm">درام</span>
+              </div>
+              <a href="https://www.filimo.com/m/m76ft" class="hidden sm:block border border-solid border-white w-[70px] py-[10px] px-[10px] rounded-[8px] text-start transition-all duration-[150ms] ease-in-out hover:bg-[#151515]">
+                <span class="ml-[5px]">خریدبلیت</span>
+              </a>
+            </div>
+          </div>
+          <div class="sm:hidden w-[100%] cursor-pointer border border-solid border-white py-[10px] px-[10px]  rounded-[8px] text-start transition-all duration-[150ms] ease-in-out hover:bg-[#151515]">
+            <a href="https://www.filimo.com/m/m76ft" class="sm:hidden w-[100%]   ">
+              <p class="sm:ml-[5px] text-[15px] font-light">خریدبلیت</p>
+            </a>
+          </div>
+        </div>
+      </div>
+     </div>
+
+    <!--comment-->
+    <div class="comment w-[100%]  py-[64px] px-[20px] lg:px-[80px]">
+      <div class="mtncomm font-bold text-[18px] sm:text-[20px] mb-[24px]">نظر کاربران بعد از تماشای فیلیمو</div>
+      <div class="slider4com">
+        <div class="swiper-custom relative">
+          <!--swiper-->
+          <div class="swiper mySwiper44 w-[100%] h-[195px] ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide nazarmardom ">
+                 <div class="nzr">
+                  <div class="upnzr flex justify-between mb-[16px]">
+                    <div class="rghtnzr flex items-center gap-[8px]">
+                      <div class=""><img src="./public/images/1.webp" alt=""></div>
+                      <span class="text-[#959ba2] text-[16px] font-light">آوا</span>
+                    </div>
+                    <div class="lftnzr"><img src="./public/images/virgol.webp" alt=""></div>
+                  </div>
+                  <div class="downnzr">خیلی خوب بود من راحت فیِلمی را که دوست داشتمو دانلود میکردم وغیر از دانلود راحت میتونستم فیلموببینم درهرحال راضیم ازاین برنامه.</div>
+                 </div>
+              </div>
+              <div class="swiper-slide nazarmardom">
+                <div class="nzr">
+                  <div class="upnzr flex justify-between mb-[16px]">
+                    <div class="rghtnzr flex items-center gap-[8px]">
+                      <div class=""><img src="./public/images/1.webp" alt=""></div>
+                      <span class="text-[#959ba2] text-[16px] font-light">
+                        TahaDamghani</span>
+                    </div>
+                    <div class="lftnzr"><img src="./public/images/virgol.webp" alt=""></div>
+                  </div>
+                  <div class="downnzr ">
+                    عالی، می‌تونی هر فیلمی رو با دوبله و زیرنویس فارسی تماشا کنی. تازه فیلیمو کیفیت پخش آنلاین رو با سرعت اینترنت تنظیم می‌کنه تا بدون توقف فیلم ببینی. دسته‌بندی هم داره و قیمت اشتراکش نسبت به برنامه‌های مشابه خارجی خیلی ارزونتره و ساخت حساب کاربری هم رایگانه. پیشنهاد می‌کنم حتما این برنامه رو نصب کنید.</div>
+                 </div>
+              </div>
+              <div class="swiper-slide nazarmardom">
+                <div class="nzr">
+                  <div class="upnzr flex justify-between mb-[16px]">
+                    <div class="rghtnzr flex items-center gap-[8px]">
+                      <div class=""><img src="./public/images/1.webp" alt=""></div>
+                      <span class="text-[#959ba2] text-[16px] font-light">
+                        fatemehfarahmandfar6</span>
+                    </div>
+                    <div class="lftnzr"><img src="./public/images/virgol.webp" alt=""></div>
+                  </div>
+                  <div class="downnzr">
+                    فیلیمو عالی من از فیلیمو رازی هستم❤❤😍🤩😘❤🍓</div>
+                 </div>
+              </div>
+              <div class="swiper-slide nazarmardom">
+                <div class="nzr">
+                  <div class="upnzr flex justify-between mb-[16px]">
+                    <div class="rghtnzr flex items-center gap-[8px]">
+                      <div class=""><img src="./public/images/1.webp" alt=""></div>
+                      <span class="text-[#959ba2] text-[16px] font-light">
+                        aref</span>
+                    </div>
+                    <div class="lftnzr"><img src="./public/images/virgol.webp" alt=""></div>
+                  </div>
+                  <div class="downnzr">
+                    خیلی برنامه خوبی هست و خیلی سریال متنوع داره</div>
+                 </div>
+              </div>
+              <div class="swiper-slide nazarmardom">
+                <div class="nzr">
+                  <div class="upnzr flex justify-between mb-[16px]">
+                    <div class="rghtnzr flex items-center gap-[8px]">
+                      <div class=""><img src="./public/images/1.webp" alt=""></div>
+                      <span class="text-[#959ba2] text-[16px] font-light">
+                        محسن مرصاد</span>
+                    </div>
+                    <div class="lftnzr"><img src="./public/images/virgol.webp" alt=""></div>
+                  </div>
+                  <div class="downnzr">
+                    یعنی حرف نداره فقط کافیه اشتراک شو فعال کنی میتونی کل فیل و سریالدهارو راحت تماشا کنی</div>
+                 </div>
+              </div>
+              <div class="swiper-slide nazarmardom">
+                <div class="nzr">
+                  <div class="upnzr flex justify-between mb-[16px]">
+                    <div class="rghtnzr flex items-center gap-[8px]">
+                      <div class=""><img src="./public/images/1.webp" alt=""></div>
+                      <span class="text-[#959ba2] text-[16px] font-light">
+                        نیکا کاوند </span>
+                    </div>
+                    <div class="lftnzr"><img src="./public/images/virgol.webp" alt=""></div>
+                  </div>
+                  <div class="downnzr">
+                    واقعا عالیه.😚 خیلی برنامه عالیه😻😻 من ۵ سال این برنانه رو دارم...🌹 درسته یکم اشتراکاش گرونه ولی هنوزم خوبه.💙❤ ولی اینترنتش نیمبهاست🌹🌹😻 ممنون از برنامه ی خوبتون🌹❤</div>
+                 </div>
+              </div>
+              <div class="swiper-slide nazarmardom">
+                <div class="nzr">
+                  <div class="upnzr flex justify-between mb-[16px]">
+                    <div class="rghtnzr flex items-center gap-[8px]">
+                      <div class=""><img src="./public/images/1.webp" alt=""></div>
+                      <span class="text-[#959ba2] text-[16px] font-light">
+                        سالار</span>
+                    </div>
+                    <div class="lftnzr"><img src="./public/images/virgol.webp" alt=""></div>
+                  </div>
+                  <div class="downnzr">
+                    همه نصب کنید. رایگان هم داره، با پول هم داره. همه ی فیلم های :کمدی، اکشن، درام،عاشقانه،ترسناک و کارتون توش موجود هست . پر از هیجان و شگفتی😎🥸🤓🤠👍🏻👍🏻👍🏻</div>
+                 </div>
+              </div>
+              <div class="swiper-slide nazarmardom">
+                <div class="nzr">
+                  <div class="upnzr flex justify-between mb-[16px]">
+                    <div class="rghtnzr flex items-center gap-[8px]">
+                      <div class=""><img src="./public/images/1.webp" alt=""></div>
+                      <span class="text-[#959ba2] text-[16px] font-light">
+                        F.A</span>
+                    </div>
+                    <div class="lftnzr"><img src="./public/images/virgol.webp" alt=""></div>
+                  </div>
+                  <div class="downnzr">
+                    خیلی خوبه تازه فیلم های 2021 رو هم با دوبله داره </div>
+                 </div>
+              </div>
+              <div class="swiper-slide nazarmardom">
+                <div class="nzr">
+                  <div class="upnzr flex justify-between mb-[16px]">
+                    <div class="rghtnzr flex items-center gap-[8px]">
+                      <div class=""><img src="./public/images/1.webp" alt=""></div>
+                      <span class="text-[#959ba2] text-[16px] font-light">
+                        Manidriver</span>
+                    </div>
+                    <div class="lftnzr"><img src="./public/images/virgol.webp" alt=""></div>
+                  </div>
+                  <div class="downnzr">
+                    فیلیمو راضیوم ازت😍😍</div>
+                 </div>
+              </div>
+              <div class="swiper-slide nazarmardom">
+                <div class="nzr">
+                  <div class="upnzr flex justify-between mb-[16px]">
+                    <div class="rghtnzr flex items-center gap-[8px]">
+                      <div class=""><img src="./public/images/1.webp" alt=""></div>
+                      <span class="text-[#959ba2] text-[16px] font-light">
+                        سایمان</span>
+                    </div>
+                    <div class="lftnzr"><img src="./public/images/virgol.webp" alt=""></div>
+                  </div>
+                  <div class="downnzr">
+                    این برنامه خیلی خوبه من داخل این فیلم نگاه می کنم کلی مامانم فیلم های بزرگسالان نگاه می‌کنه </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="navik absolute top-[-40px] left-[50px] sm:left-[60px] flex">
+            <div class="swiper-button-next bg-[rgba(6,6,6,.6)] w-[40px] h-[40px] rounded-[50%]  after:text-white"><i class="fa-solid fa-angle-left fa-xl text-[#f9f9f9] "></i></div>
+            <div class="swiper-button-prev bg-[rgba(6,6,6,.6)] w-[40px] h-[40px] rounded-[50%]  after:text-white"><i class="fa-solid fa-angle-right fa-xl text-white"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!--motedavel-->
+     <div class="w-[100%] py-[80px] px-[20px] lg:px-[80px]  bg-[#282828] bg-gradient-180 from-[rgba(0,0,0,1)0%] to-[rgba(0,0,0,0.25)100%] 
+     flex flex-col justify-center" >
+        <div class="upsoal mb-[32px] ">
+          <div class="titlesoal text-center text-lg font-light mb-[10px]">سوالات متداول</div>
+          <div class="text-[#9e9e9e] text-center font-light text-[14px] w-[100%]">سوال شایع دیگر کاربران شاید برای شما پیش امده باشد</div>
+        </div>
+        <div class="downsoal w-[100%] sm:w-[80%] flex flex-col justify-center mx-auto gap-[8px]">
+          <div class="cliksoal" >
+          <div class="question flex justify-between items-center relative  pl-[30px]" id="open_fag">
+            <div class="firstsoall text-[15px] " id="firstsoall">آیا می‌توانم فیلم‌های موجود در فیلیمو را دانلود کنم؟</div>
+            <span class="firstplus w-[14px] rotate-45 translate-y-[-50%]  absolute top-[50%] left-0 transition-all duration-500 ease-out" id="fag_icon">
+              <span class=" w-[14px] h-[14px]  ">
+                <svg class="hidden ">
+                  <g id="ui-icon-close" viewBox="0 0 24 24"><path d="M13.41 12l6.3-6.29a1 1 0 1 0-1.42-1.42L12 10.59 5.71 4.29A1 1 0 0 0 4.29 5.71L10.59 12l-6.3 6.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L12 13.41l6.29 6.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42Z"></path></g>
+                </svg>
+                <svg viewBox="0 0 24 24" class="fill-[#f4843f] w-[14px] h-[14px] "><use xlink:href="#ui-icon-close"></use></svg>
+              </span>
+            </span>
+          </div>
+            <div class="dwndetail " id="open_mtn">
+بله، شما می‌توانید همه فیلم‌ و سریال‌های فیلیمو را داخل خود اپلیکیشن فیلیمو دانلود کنید و برای زمان‌هایی که اینترنت ندارید یا در سفر، هواپیما و قطار آ‌ن‌ها را تماشا کنید. برای دانلود هم از طریق رایانه و هم از طریق خود اپلیکیشن فیلیمو می‌توانید اقدام‌کنید. برای جزییات بیشتر می‌توانید فیلم‌های آموزشی مربوط به 
+              <a href="https://www.aparat.com/v/d2fri/" target="_blank" class="text-[#fdc13c]">  دانلود از طریق سایت </a>و
+              <a href="https://www.aparat.com/v/lQyvT/" target="_blank" class="text-[#fdc13c]"> دانلود از طریق  اپلیکیشن </a>را تماشا کنید.
+            </div>
+          </div>
+
+            <div class="cliksoal">
+              <div class="question flex justify-between items-center relative pl-[30px]" id="open_fag">
+                <div class="firstsoall text-[15px] " id="firstsoall">آیا فیلیمو برای خارج از ایران در دسترس است؟</div>
+                <span class="firstplus w-[14px] rotate-45 translate-y-[-50%] transition-all duration-[300ms] ease-in-out absolute top-[50%] left-0" id="fag_icon">
+                  <span class=" w-[14px] h-[14px]  ">
+                    <svg class="hidden ">
+                      <g id="ui-icon-close" viewBox="0 0 24 24"><path d="M13.41 12l6.3-6.29a1 1 0 1 0-1.42-1.42L12 10.59 5.71 4.29A1 1 0 0 0 4.29 5.71L10.59 12l-6.3 6.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L12 13.41l6.29 6.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42Z"></path></g>
+                    </svg>
+                    <svg viewBox="0 0 24 24" class="fill-[#f4843f] w-[14px] h-[14px] "><use xlink:href="#ui-icon-close"></use></svg>
+                  </span>
+                </span>
+              </div>
+                <div class="dwndetail " id="open_mtn">
+                  خیر. درحال حاضر تماشای فیلیمو فقط در داخل کشور فعال است و امکان تماشا برای افراد خارج از کشور فعال نیست.
+                </div>
+              </div>
+
+              <div class="cliksoal">
+                <div class="question flex justify-between items-center relative pl-[30px]" id="open_fag">
+                  <div class="firstsoall text-[15px] " id="firstsoall">
+                    آیا برای تماشای فیلم‌های اکران آنلاین، باید اشتراک بخرم؟</div>
+                    <span class="firstplus w-[14px] rotate-45 translate-y-[-50%] transition-all duration-[300ms] ease-in-out absolute top-[50%] left-0" id="fag_icon">
+                      <span class=" w-[14px] h-[14px]  ">
+                        <svg class="hidden ">
+                          <g id="ui-icon-close" viewBox="0 0 24 24"><path d="M13.41 12l6.3-6.29a1 1 0 1 0-1.42-1.42L12 10.59 5.71 4.29A1 1 0 0 0 4.29 5.71L10.59 12l-6.3 6.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L12 13.41l6.29 6.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42Z"></path></g>
+                        </svg>
+                        <svg viewBox="0 0 24 24" class="fill-[#f4843f] w-[14px] h-[14px] "><use xlink:href="#ui-icon-close"></use></svg>
+                      </span>
+                    </span>
+                </div>
+                  <div class="dwndetail " id="open_mtn">تماشای فیلم‌های اکران آنلاین مانند تماشا در سینمای واقعی است؛ یعنی برای دیدن هر فیلم که در اکران آنلاین است باید بلیت تهیه کنید و به جای رفتن به سالن سینما، 8 ساعت فرصت دارید که آن فیلم را از داخل خانه تماشا کنید.
+                  </div>
+                </div>
+
+                <div class="cliksoal">
+                  <div class="question flex justify-between items-center relative pl-[30px]" id="open_fag">
+                    <div class="firstsoall text-[15px]  " id="firstsoall">
+                      از کجا می‌توانم نرم‌افزار اندروید یا iOS فیلیمو را دانلود کنم؟</div>
+                    <span class="firstplus w-[14px] rotate-45 translate-y-[-50%] transition-all duration-[300ms] ease-in-out absolute top-[50%] left-0" id="fag_icon">
+                      <span class=" w-[14px] h-[14px]  ">
+                        <svg class="hidden ">
+                          <g id="ui-icon-close" viewBox="0 0 24 24"><path d="M13.41 12l6.3-6.29a1 1 0 1 0-1.42-1.42L12 10.59 5.71 4.29A1 1 0 0 0 4.29 5.71L10.59 12l-6.3 6.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L12 13.41l6.29 6.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42Z"></path></g>
+                        </svg>
+                        <svg viewBox="0 0 24 24" class="fill-[#f4843f] w-[14px] h-[14px] "><use xlink:href="#ui-icon-close"></use></svg>
+                      </span>
+                    </span>
+                  </div>
+                    <div class="dwndetail " id="open_mtn">
+                      برای نصب نرم‌افزار اندرویدی فیلیمو می‌توانید ازطریق کافه بازار یا مایکت اقدام به دانلود کنید. یا می‌توانید روی گزینه روبرو بزنید و به‌طور مستقیم فایل نرم‌افزار را دریافت کنید. 
+                      <a href="https://www.filimo.com/android" target="_blank" class="text-[#fdc13c]"> (دانلود مستقیم نرم‌افزار اندروید) </a>
+                      برای دانلود نرم‌افزار iOS فیلیمو نیز کافیست روی گزینه روبرو بزنید و به‌طور مستقیم فایل نرم‌افزار را دریافت کنید. 
+                      <a href="https://www.filimo.com/app" target="_blank" class="text-[#fdc13c]"> (دانلود مستقیم نرم‌افزار iOS) </a>
+                    </div>
+                  </div>
+        </div>
+     </div>
+ 
+     <!--filimosabz-->
+
+   <div class="w-[100%] bg-[radial-gradient(100%_410.68%_at_100%_100%,rgba(0,0,0,0)_0%,rgba(0,29,13,0.54)_53.55%,rgba(0,0,0,0)_100%)]">
+  <div class="bachegreen w-[100%] pt-[65px] pb-[90px] px-[20px] lg:px-[80px]">
+    <div class="w-fit  pb-[64px] mx-auto "><img src="./public/images/logo_text.webp" alt=""></div>
+    <div class="flex justify-center gap-[10px] md:gap-[32px] pb-[12px] mb-[32px] flex-col md:flex-row items-center">
+      <div class="tik flex items-center">
+        <span class="tiktik text-end">
+          <svg class=" hidden">
+            <g id="ui-icon-check" viewBox="0 0 24 24"><path d="M9.77 18.73a1 1 0 0 1-.71-.29L4.3 13.71a1 1 0 0 1 0-1.41 1 1 0 0 1 1.42 0l4 3.95 8.54-10.6A1 1 0 1 1 19.78 6.9L10.54 18.36a1 1 0 0 1-.72.37Z"></path></g>
+          </svg>
+          <svg class=" fill-[#1cb561] w-[14px] h-[14px] " viewBox="0 0 24 24"><use xlink:href="#ui-icon-check"></use></svg>
+        </span>
+        <p class="mt-[2px] text-base text-[rgba(255,255,255,.75)] font-light">
+          هزاران فیلم و سریال خارجی (دوبله و زیرنویس)</p>
+      </div>
+      <div class="tik flex items-center">
+        <span class="tiktik text-end">
+          <svg class=" hidden">
+            <g id="ui-icon-check" viewBox="0 0 24 24"><path d="M9.77 18.73a1 1 0 0 1-.71-.29L4.3 13.71a1 1 0 0 1 0-1.41 1 1 0 0 1 1.42 0l4 3.95 8.54-10.6A1 1 0 1 1 19.78 6.9L10.54 18.36a1 1 0 0 1-.72.37Z"></path></g>
+          </svg>
+          <svg class=" fill-[#1cb561] w-[14px] h-[14px] " viewBox="0 0 24 24"><use xlink:href="#ui-icon-check"></use></svg>
+        </span>
+        <p class="mt-[2px] text-base text-[rgba(255,255,255,.75)] font-light">
+          هزاران انیمیشن و کارتون برای کودکان</p>
+      </div>
+      <div class="tik flex items-center">
+        <span class="tiktik text-end">
+          <svg class=" hidden">
+            <g id="ui-icon-check" viewBox="0 0 24 24"><path d="M9.77 18.73a1 1 0 0 1-.71-.29L4.3 13.71a1 1 0 0 1 0-1.41 1 1 0 0 1 1.42 0l4 3.95 8.54-10.6A1 1 0 1 1 19.78 6.9L10.54 18.36a1 1 0 0 1-.72.37Z"></path></g>
+          </svg>
+          <svg class=" fill-[#1cb561] w-[14px] h-[14px] " viewBox="0 0 24 24"><use xlink:href="#ui-icon-check"></use></svg>
+        </span>
+        <p class="mt-[2px] text-base text-[rgba(255,255,255,.75)] font-light  ">
+          پشتیبانی 24 ساعته برای راهنمایی شما</p>
+      </div>
+    </div>
+    <a href="https://www.filimo.com/payment" class="buyeshterak w-max mx-auto py-[17px] px-[58px] flex justify-center"> 
+      <span class="view">
+        <svg class="hidden">
+          <g id="ui-icon-subscription" viewBox="0 0 24 24"><path d="M19 4H5A3 3 0 0 0 2 7V17a3 3 0 0 0 3 3H19a3 3 0 0 0 3-3V7A3 3 0 0 0 19 4Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7A1 1 0 0 1 5 6H19a1 1 0 0 1 1 1Z"></path><path d="M12.4 11 9 8.74A1.25 1.25 0 0 0 7 9.79v4.42A1.26 1.26 0 0 0 9 15.27l3.44-2.21A1.26 1.26 0 0 0 12.4 11Z"></path><circle cx="16" cy="9" r="1"></circle><circle cx="16" cy="15" r="1"></circle><circle cx="16" cy="12" r="1"></circle></g>
+        </svg>
+        <svg class=" fill-white flex w-[20px] h-[20px] align-middle" viewBox="0 0 24 24" data-gtm-vis-has-fired2323515_2471="1"><use xlink:href="#ui-icon-subscription" data-gtm-vis-has-fired2323515_2471="1"></use></svg>
+    </span>
+      <p class="text-center text-base ">خرید اشتراک و تماشا</p>
+    </a>
+  </div>
+  </div>
+
+  <!--menu-->
+<div class="footerrr w-[100%]  min-h-[28px] bg-[#191919] text-[#959595] z-40 fixed bottom-0 ">
+  <div class="fullfoot w-[100%] h-[28px] flex justify-between px-[10px] md:px-[20px] ">
+    <div class="rghtfoot flex gap-[10px] items-center ">
+      <a href="#backtotop" class="cursor-pointer flex md:hidden w-[18px] h-[18px] fill-[#959595] hover:fill-white items-center transition-all  duration-300  ease-out ">
+        <svg class="hidden"><g id="ui-icon-arrow_up" viewBox="0 0 24 24"><path d="M19.17 10 12.55 4s-.1-.06-.15-.1l-.15-.09a1.07 1.07 0 0 0-.31-.06h-.06a1 1 0 0 0-.37.08.83.83 0 0 0-.16.09s-.11.06-.15.1l0 0h0L4.82 10a1 1 0 1 0 1.36 1.46l4.7-4.42V19.25a1 1 0 0 0 2 0V7l4.95 4.48a1 1 0 0 0 .67.26A1 1 0 0 0 19.17 10Z"></path></g></svg>
+        <svg viewBox="0 0 24 24" class="w-[18px] h-[18px] fill-[#959595] hover:fill-white"><use xlink:href="#ui-icon-arrow_up"></use></svg>
+      </a>
+      <a href="" class="qablmenu flex">
+        <span class="w-[18px] h-[18px]">
+          <svg class="hidden">
+            <g id="ui-icon-tv" viewBox="0 0 24 24"><g><path d="M15 20.5H9a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2Z"></path><path d="M19.5 3.5H4.5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V6.5A3 3 0 0 0 19.5 3.5Zm1 13a1 1 0 0 1-1 1H4.5a1 1 0 0 1-1-1V6.5a1 1 0 0 1 1-1h15a1 1 0 0 1 1 1Z"></path></g></g>
+          </svg>
+          <svg viewBox="0 0 24 24" class="w-[18px] h-[18px] "><use xlink:href="#ui-icon-tv"></use></svg>
+        </span>
+        تماشا‌ با تلویزیون
+      </a>
+      <a href="https://www.filimo.com/app" class="qablmenu flex">اپلیکیشن‌ها</a>
+      <a href="https://www.filimo.com/contact" class="qablmenu hidden md:flex">تماس و پشتیبانی</a>
+      <a href="https://www.filimo.com/showroom" class="qablmenu hidden md:flex">فروشگاه</a>
+      <div  class="sayerlink cursor-pointer relative hidden md:flex" >
+         <div class="flex qablmenu  " >
+          <span class="w-[18px] h-[18px]">
+            <svg class="hidden">
+              <g id="ui-icon-arrow_drop_down" viewBox="0 0 24 24"><path d="M12 17a1 1 0 0 1-.77-.36l-5-6A1 1 0 0 1 7 9H17a1 1 0 0 1 .77 1.64l-5 6A1 1 0 0 1 12 17Z"></path></g>
+            </svg>
+            <svg viewBox="0 0 24 24" class="w-[18px] h-[18px] "><use xlink:href="#ui-icon-arrow_drop_down"></use></svg>
+          </span>
+           سایر لینک‌ها
+         </div>
+         <div class="menu_link w-[160px] h-[164px] absolute bottom-[35px] bg-[#191919] shadow-[rgba(0,0,15,0.5)_0px_8px_16px_0px] z-50  
+         after::content-[''] before:bg-[#191919] before:w-[10px] before:h-[10px] before:absolute before:bottom-[-5px] before:right-[40px] before:rotate-45 before:-z-10 " >
+           
+         </div>
+      </div>
+      <div class="flex qablmenu md:hidden usefulink cursor-pointer" >
+        <span class="w-[18px] h-[18px]">
+          <svg class="hidden">
+            <g id="ui-icon-arrow_drop_down" viewBox="0 0 24 24"><path d="M12 17a1 1 0 0 1-.77-.36l-5-6A1 1 0 0 1 7 9H17a1 1 0 0 1 .77 1.64l-5 6A1 1 0 0 1 12 17Z"></path></g>
+          </svg>
+          <svg viewBox="0 0 24 24" class="w-[18px] h-[18px] "><use xlink:href="#ui-icon-arrow_drop_down"></use></svg>
+        </span>
+        لینک‌های مفید
+       </div>
+    </div>
+    <div class="leftfoot  h-[28px] flex items-center">
+      <span class="openthreedot cursor-pointer w-[18px] h-[18px] fill-[#959595] hover:fill-white md:hidden">
+        <svg class="hidden"><g id="ui-icon-more_vertical" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="12" cy="19" r="2"></circle></g></svg>
+        <svg viewBox="0 0 24 24" class="w-[18px] h-[18px] fill-[#959595] hover:fill-white"><use xlink:href="#ui-icon-more_vertical"></use></svg>
+      </span>
+      <div  class="leftejtema cursor-pointer relative flex items-center">
+        <div class="hidden md:flex qablmenu">
+         <span class="w-[18px] h-[18px]">
+           <svg class="hidden">
+             <g id="ui-icon-arrow_drop_down" viewBox="0 0 24 24"><path d="M12 17a1 1 0 0 1-.77-.36l-5-6A1 1 0 0 1 7 9H17a1 1 0 0 1 .77 1.64l-5 6A1 1 0 0 1 12 17Z"></path></g>
+           </svg>
+           <svg viewBox="0 0 24 24" class="w-[18px] h-[18px] "><use xlink:href="#ui-icon-arrow_drop_down"></use></svg>
+         </span>
+         شبکه‌های اجتماعی
+        </div>
+        <div class="menu_shabake w-[160px] h-[160px] absolute bottom-[35px] left-[-5px] bg-[#191919] shadow-[rgba(0,0,15,0.5)_0px_8px_16px_0px] z-50 after::content-[''] before:bg-[#191919] before:w-[10px] before:h-[10px] before:absolute before:bottom-[-5px] before:right-[40px] before:rotate-45 before:-z-10">
+          <div class="droppingapa"><a href="https://www.aparat.com/filimo" class="aparins">
+            <span class="w-[24px] h-[24px] ">
+              <svg class="hidden"><g id="ui-icon-redvod" viewBox="0 0 24 24"><path d="M10.56 2.12 8.63 1.61a3.25 3.25 0 0 0-4 2.31L4.17 5.74A10 10 0 0 1 10.56 2.12Z"></path><path d="M2.08 13.59l-.47 1.78a3.25 3.25 0 0 0 2.31 4l1.85.49A10 10 0 0 1 2.08 13.59Z"></path><path d="M20.08 4.65 18 4.1a9.94 9.94 0 0 1 3.81 6.67l.57-2.14A3.25 3.25 0 0 0 20.08 4.65Z"></path><path d="M13.39 21.86l2 .53a3.25 3.25 0 0 0 4-2.31l.56-2.1A10 10 0 0 1 13.39 21.86Z"></path><path d="M12 2.9A9.1 9.1 0 1 0 21.1 12 9.09 9.09 0 0 0 12 2.9ZM6.84 7.44a2.6 2.6 0 1 1 2.07 3A2.6 2.6 0 0 1 6.84 7.44Zm3.79 7.86a2.6 2.6 0 1 1-2.06-3A2.6 2.6 0 0 1 10.63 15.3Zm.19-3.45a1.16 1.16 0 1 1 .91 1.35A1.15 1.15 0 0 1 10.82 11.85Zm6.34 4.71a2.6 2.6 0 1 1-2.07-3A2.6 2.6 0 0 1 17.16 16.56Zm1.32-6.88a2.6 2.6 0 1 1-2.06-3A2.6 2.6 0 0 1 18.48 9.68Z"></path></g></svg>
+              <svg viewBox="0 0 24 24" class="w-[24px] h-[24px]"><use xlink:href="#ui-icon-redvod"></use></svg>
+            </span>
+            <span>آپارات</span>
+          </a></div>
+          <div class="droppingapa"><a href="https://t.me/filimo" class="aparins">
+            <span class="w-[24px] h-[24px]">
+              <svg class="hidden"><g id="ui-icon-telegram" viewBox="0 0 24 24"><path d="M2.48 11 21.1 3.78C22 3.47 22.72 4 22.44 5.3h0L19.27 20.24c-.23 1.06-.86 1.32-1.74.82L12.7 17.5l-2.33 2.24a1.23 1.23 0 0 1-1 .48l.35-4.92 9-8.08c.39-.34-.09-.54-.6-.2L7 14 2.26 12.5c-1-.33-1.06-1 .22-1.53Z"></path></g></svg>
+              <svg viewBox="0 0 24 24" class="w-[24px] h-[24px]"><use xlink:href="#ui-icon-telegram"></use></svg>
+            </span>
+            <span>تلگرام</span>
+          </a></div>
+          <div class="droppingapa"><a href="http://twitter.com/filimocom" class="aparins">
+            <span class="w-[24px] h-[24px]">
+              <svg class="hidden"><g id="ui-icon-twitter" viewBox="0 0 24 24"><path d="M22.63 5.33a8.51 8.51 0 0 1-2.47.7 4.4 4.4 0 0 0 1.9-2.45 8.53 8.53 0 0 1-2.74 1.08 4.21 4.21 0 0 0-6.07-.2 4.45 4.45 0 0 0-1.36 3.21 4.88 4.88 0 0 0 .11 1A12.1 12.1 0 0 1 3.13 4.09 4.49 4.49 0 0 0 4.45 10 4.21 4.21 0 0 1 2.5 9.42v.05A4.4 4.4 0 0 0 6 13.8 4.24 4.24 0 0 1 4 13.87a4.33 4.33 0 0 0 4 3.07 8.52 8.52 0 0 1-5.33 1.88 8.91 8.91 0 0 1-1-.07 12 12 0 0 0 6.61 2c7.91 0 12.22-6.7 12.23-12.52l.4-.92A8.81 8.81 0 0 0 22.63 5.33Z"></path></g></svg>
+              <svg viewBox="0 0 24 24"><use xlink:href="#ui-icon-twitter"></use></svg>
+            </span>
+            <span>توئیتر</span>
+          </a></div>
+          <div class="droppingapa"><a href="http://instagram.com/filimocom" class="aparins">
+            <span class="w-[24px] h-[24px]">
+              <svg class="hidden"><g id="ui-icon-instagram" viewBox="0 0 24 24"><path d="M22.44 7.68A7.69 7.69 0 0 0 22 5.13a5.32 5.32 0 0 0-3.08-3.08 7.59 7.59 0 0 0-2.54-.49C15.22 1.51 14.86 1.5 12 1.5l0 0c-2.84 0-3.2 0-4.31.06a7.87 7.87 0 0 0-2.54.51A5.32 5.32 0 0 0 2.05 5.17a7.69 7.69 0 0 0-.49 2.55C1.51 8.84 1.5 9.19 1.5 12s0 3.2.06 4.32a8 8 0 0 0 .53 2.51A5.32 5.32 0 0 0 5.17 22a7.84 7.84 0 0 0 2.54.49c1.11 0 1.47.06 4.31.06s3.2 0 4.31-.06A7.84 7.84 0 0 0 18.87 22 5.32 5.32 0 0 0 22 18.87a7.69 7.69 0 0 0 .49-2.55c0-1.12.06-1.48.06-4.32S22.5 8.8 22.44 7.68ZM20.5 16.24a5.9 5.9 0 0 1-.36 2 3.49 3.49 0 0 1-2 2 5.38 5.38 0 0 1-1.94.36c-1.1.06-1.43.07-4.23.07s-3.13 0-4.23-.07a5.38 5.38 0 0 1-1.94-.36 3.49 3.49 0 0 1-2-2 5.6 5.6 0 0 1-.36-1.94c-.08-1.11-.08-1.44-.08-4.24s0-3.13.06-4.24a5.63 5.63 0 0 1 .38-1.94 3.48 3.48 0 0 1 2-2 5.85 5.85 0 0 1 1.94-.36c1.1-.08 1.44-.08 4.23-.08s3.13 0 4.23.06a5.85 5.85 0 0 1 1.94.36 3.54 3.54 0 0 1 2 2 5.86 5.86 0 0 1 .36 1.95c.05 1.1.06 1.44.06 4.23S20.56 15.14 20.5 16.24Z"></path><path d="M12 6.64A5.36 5.36 0 1 0 17.34 12 5.35 5.35 0 0 0 12 6.64Zm0 8.83A3.48 3.48 0 1 1 15.46 12 3.47 3.47 0 0 1 12 15.47Z"></path><path d="M17.46 4.86a1.26 1.26 0 1 0 1.26 1.26A1.25 1.25 0 0 0 17.46 4.86Z"></path></g></svg>
+              <svg viewBox="0 0 24 24"><use xlink:href="#ui-icon-instagram"></use></svg>
+            </span>
+            <span>اینستاگرام</span>
+          </a></div>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+   
+
+
+
+ 
+
+
+
+
+
+
+   </div>
+
+
+
+
+  <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+  <script type="module" src="./public/js/main.js"></script>
+  <!-- Initialize Swiper 
+  <script>
+        var swiper = new Swiper(".mySwiper44", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>      -->
+
+</body>
+</html>
+

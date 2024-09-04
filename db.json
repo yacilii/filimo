@@ -1,0 +1,10 @@
+{
+    "menu_link":[
+        {"id":1,"name":"قوانین","href":"https://www.filimo.com/term"},
+        {"id":2,"name":"به ما بپیوندید","href":"https://www.sabaidea.com/job"},
+        {"id":3,"name":"تبلیغات در فیلیمو","href":"https://www.sabaidea.com/job"},
+        {"id":4,"name":"لوگو","href":"https://www.filimo.com/logo"},
+        {"id":5,"name":"دانلود فیلم و سریال","href":"https://www.filimo.com/download-movies"}
+    ]
+}
+
